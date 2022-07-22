@@ -14,16 +14,16 @@ nav {
 
 .nav-logo {
     position: absolute;
-    left: 2%;
-    top: 2%;
-    width: 8%;
+    left: 25px;
+    top: 15px;
+    width: 100px;
     align-self: baseline;
     transform: rotate(-10deg);
 }
 
 .title {
     position: relative;
-    left: 10%;
+    left: 140px;
     font-size: 3em;
 }
 
