@@ -1,0 +1,57 @@
+.container {
+    height: 100px;
+    border: black 2px solid;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    position: fixed;
+    right: 20%;
+    font-size: 2em;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 8%;
+    align-self: baseline;
+    transform: rotate(-10deg);
+}
+
+.title {
+    position: relative;
+    left: 10%;
+    font-size: 3em;
+}
+
+.nav-menu { 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 100px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin: 0 20%;
+    font-size: 1.25em;
+    z-index: 1;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    /* padding: 0.5rem 1rem; */
+    transition: color 400ms;
+}
+
+.nav-links:hover{
+    color: red;
+}
+
