@@ -11,7 +11,7 @@
 .nav-logo {
     position: absolute;
     left: 25px;
-    top: 15px;
+    top: 8px;
     width: 100px;
     align-self: baseline;
     transform: rotate(-10deg);
@@ -22,7 +22,7 @@
 .logo-spin {
     transform: rotate(-450deg);
     transition: all 0.5s ease;
-    top: -5px;
+    top: -10px;
 }
 
 
@@ -100,7 +100,7 @@
     }
 
     .nav-menu.active {
-        height: 165px;
+        height: 150px;
         width: 100%;
         background-color: rgba(128, 128, 128, 0.454);
         top: 49px;
