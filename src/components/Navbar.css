@@ -1,4 +1,4 @@
-.container {
+.navbar {
     position: fixed;
     height: 100px;
     width: 100%;
@@ -59,3 +59,63 @@
     color: red;
 }
 
+
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1030px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        color: rgb(0, 0, 0);
+        right: 20px;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav-menu {
+        height: 0px;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        overflow: hidden;
+      }
+    
+      .nav-menu.active {
+        height: 165px;
+        background: rgb(36, 36, 36);
+        top: 70px;
+        left: 0px;
+        border-bottom: black 1px solid;
+        border-bottom: rgba(255, 255, 255, 0.49) 4px solid;
+        transition: all 0.25s ease;
+    
+      }
+    
+      .nav-links {
+          display: flex;
+          flex-direction: column;
+          margin-left: 15px;
+          top: 5px;
+          font-size: 25px;
+      }
+    
+      .nav-item {
+          padding-bottom: 3px;
+      }
+    
+    
+      #title {
+         margin-left: 15px;
+    }
+      .active {
+         display: flex;
+         flex-direction: column;
+         align-items: left;
+    }
+    
+    .hide {
+        display: none;
+    }
+}

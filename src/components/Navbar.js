@@ -1,11 +1,19 @@
 import React from 'react'
+import { useState } from 'react'
 import "./Navbar.css"
 import logo1 from "../images/logo1.jpg"
 import { Link } from 'react-router-dom'
 
-function Navbar() {
+const Navbar = () => {
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick (!click)
+    // const closeMenu = () => setClick (false)
+
   return (
-    <div className="container">
+    <div className= {click ? "navbar active" : "navbar"}>
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
       <Link to="/">
         {" "}
         <img className="nav-logo" src={logo1} alt="Double Down Logo"></img>
