@@ -10,16 +10,22 @@ const Navbar = () => {
     // const closeMenu = () => setClick (false)
 
   return (
-    <div className= {click ? "navbar active" : "navbar"}>
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
-        </div>
+    <div className={click ? "navbar active" : "navbar"}>
+      <div className="menu-icon" onClick={handleClick}>
+        <i className={click ? "fas fa-times" : "fas fa-bars"} />
+      </div>
       <Link to="/">
         {" "}
-        <img className="nav-logo" src={logo1} alt="Double Down Logo"></img>
+        <img
+          className={click ? "nav-logo logo-spin" : "nav-logo"}
+          src={logo1}
+          alt="Double Down Logo"
+        ></img>
       </Link>
-      <div className="title">DOUBLE DOWN</div>
-      <div className="sub-title">auto detailing service</div>
+      <div className={click ? "title title-nudge" : "title"}>DOUBLE DOWN</div>
+      <div className={click ? "sub-title title-nudge" : "sub-title"}>
+        auto detailing service
+      </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
           <Link className="nav-links" to="">

@@ -16,14 +16,23 @@
     align-self: baseline;
     transform: rotate(-10deg);
     z-index: 100;
+    transition: all 0.25s ease;
 }
+
+.logo-spin {
+    transform: rotate(-450deg);
+    transition: all 0.5s ease;
+    top: -5px;
+}
+
 
 .title {
     position: absolute;
     left: 130px;
     font-size: 3em;
     top: 10px;
-
+    transition: all 0.25s ease;
+    
 }
 
 .sub-title {
@@ -31,6 +40,7 @@
     left: 140px;
     top: 60px;
     font-size: 1.5em;
+    transition: all 0.25s ease;
 }
 
 .nav-menu {
@@ -61,8 +71,6 @@
     color: red;
 }
 
-
-
 .menu-icon {
     display: none;
 }
@@ -86,14 +94,12 @@
     }
 
     .nav-menu.active {
-        height: 230px;
+        height: 132px;
         width: 100%;
         background-color: rgba(128, 128, 128, 0.454);
         top: 84px;
-        left: 0px;
         border-bottom: black 2px solid;
         transition: all 0.25s ease;
-
     }
 
     .nav-logo {
@@ -109,6 +115,11 @@
     .sub-title {
         font-size: 1.5em;
         left: 110px;
+    }
+
+    .title-nudge {
+        left: 130px;
+        transition: all 0.25s ease;
     }
 
     .nav-links {
