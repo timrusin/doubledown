@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     const [click, setClick] = useState(false)
     const handleClick = () => setClick (!click)
-    // const closeMenu = () => setClick (false)
+    const closeMenu = () => setClick (false)
 
   return (
     <div className={click ? "navbar active" : "navbar"}>
       <div className="menu-icon" onClick={handleClick}>
         <i className={click ? "fas fa-times" : "fas fa-bars"} />
       </div>
-      <Link to="/">
+      <Link to="/" onClick={closeMenu}>
         {" "}
         <img
           className={click ? "nav-logo logo-spin" : "nav-logo"}
@@ -28,22 +28,22 @@ const Navbar = () => {
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
-          <Link className="nav-links" to="">
+          <Link className="nav-links" to="" onClick={closeMenu}>
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="">
+          <Link className="nav-links" to="" onClick={closeMenu}>
             Services
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="">
+          <Link className="nav-links" to="" onClick={closeMenu}>
             Gallery
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="">
+          <Link className="nav-links" to="" onClick={closeMenu}>
             Contact
           </Link>
         </li>
