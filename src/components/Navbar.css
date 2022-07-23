@@ -19,13 +19,6 @@
     transition: all 0.25s ease;
 }
 
-.logo-spin {
-    transform: rotate(-450deg);
-    transition: all 0.5s ease;
-    top: -10px;
-}
-
-
 .title {
     color: white;
     position: absolute;
@@ -110,6 +103,14 @@
 
     .nav-logo {
         width: 60px;
+        left: 20px;
+    }
+
+    .logo-spin {
+        transform: rotate(-450deg);
+        transition: all 0.5s ease;
+        top: -10px;
+        left: 25px;
     }
 
     .title {
