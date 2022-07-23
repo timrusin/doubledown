@@ -1,15 +1,11 @@
 .container {
+    position: fixed;
     height: 100px;
+    width: 100%;
     border: black 2px solid;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.454);
     display: flex;
     align-items: center;
-}
-
-nav {
-    position: fixed;
-    right: 20%;
-    font-size: 2em;
 }
 
 .nav-logo {
@@ -25,13 +21,21 @@ nav {
     position: relative;
     left: 140px;
     font-size: 3em;
+    top: -10px;
+}
+
+.sub-title {
+    position: relative;
+    left: -195px;
+    top: 26px;
+    font-size: 1.5em;
 }
 
 .nav-menu { 
     display: flex;
     justify-content: center;
     position: fixed;
-    right: 100px;
+    right: 150px;
 }
 
 .nav-item {
@@ -39,8 +43,8 @@ nav {
     align-items: center;
     color: white;
     text-decoration: none;
-    margin: 0 20%;
-    font-size: 1.25em;
+    margin: 0 10%;
+    font-size: 1.5em;
     z-index: 1;
 }
 

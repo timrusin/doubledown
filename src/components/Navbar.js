@@ -11,30 +11,26 @@ function Navbar() {
         <img className="nav-logo" src={logo1} alt="Double Down Logo"></img>
       </Link>
       <div className="title">DOUBLE DOWN</div>
+      <div className="sub-title">auto detailing service</div>
       <ul className="nav-menu">
         <li className="nav-item">
           <Link className="nav-links" to="">
-            Test1
+            About
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-links" to="">
-            Test2
+            Services
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-links" to="">
-            Test3
+            Gallery
           </Link>
         </li>
         <li className="nav-item">
           <Link className="nav-links" to="">
-            Test4
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-links" to="">
-            Test5
+            Contact
           </Link>
         </li>
       </ul>

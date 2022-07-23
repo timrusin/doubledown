@@ -1,8 +1,9 @@
 import React from 'react'
+import Donnie from '../images/Donnie.jpeg'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <img src= {Donnie} alt="Donnie Longtin" width="100%"></img>
   )
 }
 
