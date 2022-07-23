@@ -15,6 +15,7 @@
     width: 100px;
     align-self: baseline;
     transform: rotate(-10deg);
+    z-index: 100;
 }
 
 .title {
@@ -84,35 +85,39 @@
     
       .nav-menu.active {
         height: 165px;
-        background: rgb(36, 36, 36);
-        top: 70px;
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.454);
+        top: 84px;
         left: 0px;
-        border-bottom: black 1px solid;
-        border-bottom: rgba(255, 255, 255, 0.49) 4px solid;
-        transition: all 0.25s ease;
+        border-bottom: black 2px solid;
+        transition: all 0.5s ease;
     
+      }
+
+      .nav-logo {
+        width: 70px;
+      }
+
+      .title {
+        font-size: 2em;
       }
     
       .nav-links {
           display: flex;
           flex-direction: column;
-          margin-left: 15px;
+          margin-left: 15%;
           top: 5px;
-          font-size: 25px;
+          font-size: 1em;
       }
     
       .nav-item {
           padding-bottom: 3px;
       }
     
-    
-      #title {
-         margin-left: 15px;
-    }
       .active {
          display: flex;
          flex-direction: column;
-         align-items: left;
+         border-bottom: none;
     }
     
     .hide {

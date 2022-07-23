@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
       <div className="title">DOUBLE DOWN</div>
       <div className="sub-title">auto detailing service</div>
-      <ul className="nav-menu">
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
           <Link className="nav-links" to="">
             About
