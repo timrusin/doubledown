@@ -19,20 +19,21 @@
 }
 
 .title {
-    position: relative;
-    left: 140px;
+    position: absolute;
+    left: 130px;
     font-size: 3em;
-    top: -10px;
+    top: 10px;
+
 }
 
 .sub-title {
-    position: relative;
-    left: -195px;
-    top: 26px;
+    position: absolute;
+    left: 140px;
+    top: 60px;
     font-size: 1.5em;
 }
 
-.nav-menu { 
+.nav-menu {
     display: flex;
     justify-content: center;
     position: fixed;
@@ -49,14 +50,14 @@
     z-index: 1;
 }
 
-.nav-links{
+.nav-links {
     color: white;
     text-decoration: none;
     /* padding: 0.5rem 1rem; */
     transition: color 400ms;
 }
 
-.nav-links:hover{
+.nav-links:hover {
     color: red;
 }
 
@@ -75,51 +76,60 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
+
     .nav-menu {
         height: 0px;
         position: absolute;
         top: 70px;
         left: 0px;
         overflow: hidden;
-      }
-    
-      .nav-menu.active {
-        height: 165px;
+    }
+
+    .nav-menu.active {
+        height: 230px;
         width: 100%;
         background-color: rgba(128, 128, 128, 0.454);
         top: 84px;
         left: 0px;
         border-bottom: black 2px solid;
-        transition: all 0.5s ease;
-    
-      }
+        transition: all 0.25s ease;
 
-      .nav-logo {
-        width: 70px;
-      }
-
-      .title {
-        font-size: 2em;
-      }
-    
-      .nav-links {
-          display: flex;
-          flex-direction: column;
-          margin-left: 15%;
-          top: 5px;
-          font-size: 1em;
-      }
-    
-      .nav-item {
-          padding-bottom: 3px;
-      }
-    
-      .active {
-         display: flex;
-         flex-direction: column;
-         border-bottom: none;
     }
-    
+
+    .nav-logo {
+        width: 70px;
+    }
+
+    .title {
+        font-size: 2.5em;
+        left: 100px;
+        top: 15px;
+    }
+
+    .sub-title {
+        font-size: 1.5em;
+        left: 110px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+
+    .nav-item {
+        margin-left: 0;
+        font-size: 1.5em;
+        padding-bottom: 5px;
+    }
+
+    .active {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+    }
+
     .hide {
         display: none;
     }
