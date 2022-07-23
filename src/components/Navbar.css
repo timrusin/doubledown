@@ -27,6 +27,7 @@
 
 
 .title {
+    color: white;
     position: absolute;
     left: 130px;
     font-size: 3em;
@@ -81,9 +82,13 @@
         position: absolute;
         color: rgb(0, 0, 0);
         right: 20px;
-        top: 30px;
+        top: 20px;
         font-size: 1.8rem;
         cursor: pointer;
+    }
+
+    .navbar {
+        height: 65px;
     }
 
     .nav-menu {
@@ -95,31 +100,32 @@
     }
 
     .nav-menu.active {
-        height: 132px;
+        height: 150px;
         width: 100%;
         background-color: rgba(128, 128, 128, 0.454);
-        top: 84px;
+        top: 49px;
         border-bottom: black 2px solid;
-        transition: all 0.25s ease;
+        transition: height .25s ease;
     }
 
     .nav-logo {
-        width: 70px;
+        width: 60px;
     }
 
     .title {
-        font-size: 2.5em;
-        left: 100px;
+        font-size: 1.8em;
+        left: 85px;
         top: 15px;
     }
 
     .sub-title {
-        font-size: 1.5em;
-        left: 110px;
+        top: 44px;
+        font-size: 1em;
+        left: 95px;
     }
 
     .title-nudge {
-        left: 130px;
+        left: 110px;
         transition: all 0.25s ease;
     }
 
