@@ -16,14 +16,14 @@
     position: relative;
     opacity: .5;
     width: 100%;
-    top: -62%;
+    top: -50%;
 }
 
 .services-title {
     color: black;
     position: absolute;
     font-size: 3.5vw;
-    top: 15%;
+    top: 25%;
     left: 5%;
 }
 
