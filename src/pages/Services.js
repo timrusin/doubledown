@@ -11,7 +11,7 @@ const Services = () => {
         playsInline
         loop
         muted
-        className="product-video"
+        className="fade-in product-video"
       />
       <div className='services-title'>
         <h1>Services</h1>
