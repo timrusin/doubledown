@@ -1,6 +1,5 @@
 .services-container{
     position: absolute;
-
     color: white;
     text-align: center;
     height: 100%;
@@ -8,7 +7,6 @@
     z-index: -1;
     padding-top: 80px;
 }
-
 
 .fade-in {
     transition: all 2sec
@@ -18,13 +16,13 @@
     position: relative;
     opacity: .5;
     width: 100%;
-    top: -45%;
+    top: -500px;
 }
 
 .services-title {
     color: black;
     position: absolute;
-    font-size: 5vw;
+    font-size: 4vw;
     top: 10%;
     left: 5%;
 }
@@ -32,5 +30,9 @@
 @media screen and (max-width: 1030px) {
     .product-video {
         top: -15%;
+    }
+
+    .services-title {
+        font-size: 5vw;
     }
 }
