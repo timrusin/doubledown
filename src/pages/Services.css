@@ -8,16 +8,13 @@
     padding-top: 80px;
 }
 
-.fade-in {
-    transition: all 2sec
-}
-
 .product-video {
     position: relative;
     opacity: .5;
     width: 100%;
     top: -50%;
-}
+  }
+
 
 .services-title {
     color: black;
@@ -25,6 +22,34 @@
     font-size: 3.5vw;
     top: 25%;
     left: 5%;
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:.5;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:.5;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:.5;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:.5;}
+
 }
 
 @media screen and (max-width: 1030px) {
