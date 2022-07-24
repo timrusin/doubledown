@@ -16,14 +16,14 @@
     position: relative;
     opacity: .5;
     width: 100%;
-    top: -500px;
+    top: -62%;
 }
 
 .services-title {
     color: black;
     position: absolute;
-    font-size: 4vw;
-    top: 10%;
+    font-size: 3.5vw;
+    top: 15%;
     left: 5%;
 }
 
@@ -34,5 +34,7 @@
 
     .services-title {
         font-size: 5vw;
+        top: 100px;
+        left: 50px;
     }
 }
