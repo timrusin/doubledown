@@ -1,7 +1,8 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import './App.css'
+import Navbar from './components/Navbar'
 import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home';
+import Home from './pages/Home'
+import Services from './pages/Services'
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route path="/images" element={<Images />} />
-        <Route path="about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        {/* <Route path="about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/newborn" element={<NewBorn />} /> */}
       </Routes>

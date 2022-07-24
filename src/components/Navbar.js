@@ -15,7 +15,6 @@ const Navbar = () => {
         <i className={click ? "fas fa-times" : "fas fa-bars"} />
       </div>
       <Link to="/" onClick={closeMenu}>
-        {" "}
         <img
           className={click ? "nav-logo logo-spin" : "nav-logo"}
           src={logo1}
@@ -33,7 +32,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="" onClick={closeMenu}>
+          <Link className="nav-links" to="/services" onClick={closeMenu}>
             Services
           </Link>
         </li>

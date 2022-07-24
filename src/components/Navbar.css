@@ -2,8 +2,8 @@
     position: fixed;
     height: 100px;
     width: 100%;
-    border: black 2px solid;
-    background-color: rgba(128, 128, 128, 0.454);
+    border-bottom: rgb(104, 102, 102) 2px solid;
+    background-color: rgba(0, 0, 0, 0.829);
     display: flex;
     align-items: center;
 }
@@ -31,6 +31,7 @@
 
 .sub-title {
     position: absolute;
+    color: rgb(104, 102, 102);
     left: 140px;
     top: 60px;
     font-size: 1.5em;
@@ -73,7 +74,7 @@
     .menu-icon {
         display: block;
         position: absolute;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         right: 20px;
         top: 20px;
         font-size: 1.8rem;
@@ -95,9 +96,9 @@
     .nav-menu.active {
         height: 150px;
         width: 100%;
-        background-color: rgba(128, 128, 128, 0.454);
+        background-color: rgba(0, 0, 0, 0.829);
         top: 49px;
-        border-bottom: black 2px solid;
+        border-bottom: rgb(104, 102, 102) 2px solid;
         transition: height .25s ease;
     }
 
