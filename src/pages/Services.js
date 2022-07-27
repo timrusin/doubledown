@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import products from '../images/products-edit.mp4'
+import products from '../images/products-edit-low.mp4'
 
 const Services = () => {
   return (

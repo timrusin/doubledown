@@ -10,7 +10,7 @@
 
 .product-video {
     position: relative;
-    opacity: .5;
+    opacity: .75;
     width: 100%;
     top: -50%;
   }
@@ -33,22 +33,22 @@
   }
   @keyframes fadeIn {
     0% {opacity:0;}
-    100% {opacity:.5;}
+    100% {opacity:.75;}
   }
   
   @-moz-keyframes fadeIn {
     0% {opacity:0;}
-    100% {opacity:.5;}
+    100% {opacity:.75;}
   }
   
   @-webkit-keyframes fadeIn {
     0% {opacity:0;}
-    100% {opacity:.5;}
+    100% {opacity:.75;}
   }
   
   @-o-keyframes fadeIn {
     0% {opacity:0;}
-    100% {opacity:.5;}
+    100% {opacity:.75;}
 
 }
 
