@@ -20,7 +20,7 @@
 }
 
 .nav-logo:hover {
-    transform: scale(1);
+    transform:rotate(.10deg);
     filter: brightness(1.5);
 }
 
@@ -110,6 +110,11 @@
     .nav-logo {
         width: 60px;
         left: 20px;
+    }
+
+    .nav-logo:hover {
+        transform:rotate(-450deg);
+        filter: brightness(1);
     }
 
     .logo-spin {
