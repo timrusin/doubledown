@@ -141,6 +141,7 @@
         flex-direction: column;
         font-size: 1em;
         margin-bottom: 0;
+        margin-left: -25px;
     }
 
     .nav-item {
