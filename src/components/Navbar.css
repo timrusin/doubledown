@@ -19,6 +19,11 @@
     transition: all 0.25s ease;
 }
 
+.nav-logo:hover {
+    transform: scale(1);
+    filter: brightness(1.5);
+}
+
 .title {
     color: white;
     position: absolute;
