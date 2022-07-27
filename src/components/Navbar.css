@@ -2,8 +2,8 @@
     position: fixed;
     height: 100px;
     width: 100%;
-    border-bottom: rgb(104, 102, 102) 2px solid;
-    background-color: rgba(0, 0, 0, 0.829);
+    border-bottom: rgb(218, 165, 32) 2px solid;
+    background-color: rgb(214, 45, 45);
     display: flex;
     align-items: center;
 }
@@ -36,7 +36,7 @@
 
 .sub-title {
     position: absolute;
-    color: rgb(104, 102, 102);
+    color: rgb(218, 165, 32);
     left: 140px;
     top: 60px;
     font-size: 1.5em;
@@ -68,7 +68,7 @@
 }
 
 .nav-links:hover {
-    color: red;
+    color: rgb(218, 165, 32);
 }
 
 .menu-icon {
@@ -79,9 +79,9 @@
     .menu-icon {
         display: block;
         position: absolute;
-        color: rgb(255, 255, 255);
+        color: rgb(218, 165, 32);
         right: 20px;
-        top: 20px;
+        top: 15px;
         font-size: 1.8rem;
         cursor: pointer;
     }
@@ -101,9 +101,9 @@
     .nav-menu.active {
         height: 150px;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.829);
+        background-color: rgb(214, 45, 45);
         top: 49px;
-        border-bottom: rgb(104, 102, 102) 2px solid;
+        border-bottom: rgb(218, 165, 32) 2px solid;
         transition: height .25s ease;
     }
 
@@ -129,13 +129,13 @@
     .title {
         font-size: 1.8em;
         left: 85px;
-        top: 15px;
+        top: 10px;
     }
 
     .sub-title {
-        top: 44px;
+        top: 39px;
         font-size: 1em;
-        left: 95px;
+        left: 90px;
     }
 
     .title-nudge {
