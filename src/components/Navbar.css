@@ -112,6 +112,11 @@
         left: 20px;
     }
 
+    .nav-logo:hover {
+        filter: brightness(1);
+        transform: rotate(-10deg);
+    }
+
     
 
     .logo-spin {
