@@ -1,6 +1,5 @@
 import React from 'react'
 import './Services.css'
-import products from '../images/products-edit-low.mp4'
 import Ratecard from '../components/Ratecard';
 
 const Services = () => {
