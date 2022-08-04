@@ -33,14 +33,14 @@
     font-size: 1.5em;
 }
 
-.bottom-right{
+/* .bottom-right{
     position: relative;
     left: 80px;
     font-family: serif;
     top: 0%;
     font-size: 1.5em;
     transform: rotate(180deg);
-}
+} */
 
 .D{
     margin-bottom: -5%;

@@ -17,10 +17,6 @@ const Ratecard = () => {
           <li>service 4 place holder</li>
         </ul>
       </div>
-      <div className="bottom-right">
-        <h1 className="D">D</h1>
-        <i className="fa-solid fa-heart"></i>
-      </div>
     </div>
   );
 }
