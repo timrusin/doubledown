@@ -1,6 +1,5 @@
 .services-container {
     position: absolute;
-    color: white;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -17,10 +16,7 @@
 
 .services-title {
     color: black;
-    position: absolute;
-    font-size: 3.5vw;
-    top: 25%;
-    left: 5%;
+    text-align: center;
 }
 
 .fade-in {
@@ -81,4 +77,14 @@
         top: 100px;
         left: 50px;
     }
+}
+
+.test{
+    /* margin-top: -300px; */
+    position: absolute;
+    top: 30%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: baseline;
 }
