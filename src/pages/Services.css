@@ -71,7 +71,10 @@
 
 
 @media screen and (max-width: 1030px) {
-
+    .services-title {
+        font-size: 3vw;
+        text-align: center;
+    }
     .cards{
         top: 20%;
         flex-direction: column;
