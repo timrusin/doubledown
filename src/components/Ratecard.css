@@ -1,6 +1,54 @@
-#rate-card {
+.rate-card {
     width: 200px;
     height: 300px;
-    background-color: antiquewhite;
+    background-color: white;
     border-radius: 5%;
+    color: black;
+    font-family: serif;
 }
+
+.content{
+    position: relative;
+    top: -25px;
+}
+
+.rate-card h1{
+    font-size: 1.5em;
+}
+
+.inner-border {
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.service-list {
+    text-align: left;
+    list-style:outside;
+}
+
+.top-left{
+    position: relative;
+    left: -80px;
+    top: -20px;
+    font-size: 1.5em;
+}
+
+.bottom-right{
+    position: relative;
+    left: 80px;
+    font-family: serif;
+    font-size: 1.5em;
+    transform: rotate(180deg);
+}
+
+.D{
+    margin-bottom: -5%;
+}
+
+.fa-heart{
+    font-size: .75em;
+}
+
+
+
+

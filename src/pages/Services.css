@@ -7,16 +7,21 @@
     padding-top: 80px;
 }
 
-.product-video {
-    position: relative;
-    opacity: .6;
-    width: 100%;
-    top: -50%;
+.services-title {
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    text-align: center;
 }
 
-.services-title {
-    color: black;
-    text-align: center;
+.cards{
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 5%;
 }
 
 .fade-in {
@@ -26,7 +31,6 @@
     -o-animation: fadeIn 2s;
     -ms-animation: fadeIn 2s;
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -36,7 +40,6 @@
         opacity: .6;
     }
 }
-
 @-moz-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -46,7 +49,6 @@
         opacity: .6;
     }
 }
-
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -56,7 +58,6 @@
         opacity: .6;
     }
 }
-
 @-o-keyframes fadeIn {
     0% {
         opacity: 0;
@@ -67,24 +68,13 @@
     }
 }
 
+
+
 @media screen and (max-width: 1030px) {
-    .product-video {
-        top: -15%;
-    }
 
-    .services-title {
-        font-size: 5vw;
-        top: 100px;
-        left: 50px;
+    .cards{
+        top: 20%;
+        flex-direction: column;
+        align-items: center;
     }
-}
-
-.test{
-    /* margin-top: -300px; */
-    position: absolute;
-    top: 30%;
-    height: 500px;
-    width: 500px;
-    display: flex;
-    justify-content: baseline;
 }

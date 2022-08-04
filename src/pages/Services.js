@@ -8,8 +8,11 @@ const Services = () => {
       <div className="services-title">
         <h1>Services</h1>
       </div>
-      <div className="test">
-        <Ratecard />
+      <div className="cards">
+        <div className='card'><Ratecard /></div>
+        <div className='card'><Ratecard /></div>
+        <div className='card'><Ratecard /></div>
+        <div className='card'><Ratecard /></div>
       </div>
     </div>
   );
