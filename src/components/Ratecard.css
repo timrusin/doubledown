@@ -25,6 +25,7 @@
 .service-list {
     text-align: left;
     list-style:outside;
+
 }
 
 .top-left{
@@ -51,7 +52,7 @@
     font-size: .75em;
 }
 
-.quote-links{
+.quote-link{
     text-decoration: none;
     color: blue;
 }

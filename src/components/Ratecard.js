@@ -17,7 +17,7 @@ const Ratecard = () => {
           <li>service 3 place holder</li>
           <li>service 4 place holder</li>
         </ul>
-        <Link to="/contact" className='quote-links'>GET A QUOTE</Link>
+        <Link to="/contact" className='quote-link'>GET A QUOTE</Link>
       </div>
     </div>
   );
