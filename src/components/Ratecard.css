@@ -50,6 +50,14 @@
     font-size: .75em;
 }
 
+.quote-links{
+    text-decoration: none;
+    color: blue;
+}
+.quote-links:hover{
+    color:red;
+}
+
 @media screen and (max-width: 1030px) {
 
 }

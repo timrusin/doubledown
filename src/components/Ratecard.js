@@ -1,5 +1,6 @@
 import React from 'react'
 import './Ratecard.css'
+import {Link} from 'react-router-dom'
 
 const Ratecard = () => {
   return (
@@ -16,6 +17,7 @@ const Ratecard = () => {
           <li>service 3 place holder</li>
           <li>service 4 place holder</li>
         </ul>
+        <Link to="/contact" className='quote-links'>GET A QUOTE</Link>
       </div>
     </div>
   );
