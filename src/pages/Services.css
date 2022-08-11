@@ -36,12 +36,22 @@
     transform: rotate(345deg);
     transition: all ease-in 400ms;
 }
+.card-one:hover{
+    transform: rotate(360deg);
+    z-index: 100;
+    transition: all 100ms;
+}
 .card-two{
     position: absolute;
     left: 35%;
     top: 28%;
     transform: rotate(365deg);
     transition: all ease-in 350ms;
+}
+.card-two:hover{
+    transform: rotate(360deg);
+    z-index: 100;
+    transition: all 100ms;
 }
 .card-three{
     position: absolute;
@@ -50,12 +60,22 @@
     transform: rotate(358deg);
     transition: all ease-in 375ms;
 }
+.card-three:hover{
+    transform: rotate(360deg);
+    z-index: 100;
+    transition: all 100ms;
+}
 .card-four{
     position: absolute;
     left: 65%;
     top: 28%;
     transform: rotate(345deg);
     transition: all ease-in 400ms;
+}
+.card-four:hover{
+    transform: rotate(360deg);
+    z-index: 100;
+    transition: all 100ms;
 }
 
 .fade-in {
