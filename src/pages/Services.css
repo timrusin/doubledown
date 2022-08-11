@@ -24,6 +24,40 @@
     margin: 5%;
 }
 
+.card-hide{
+    position: absolute;
+    top: -300px;
+}
+
+.card-one{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    transform: rotate(345deg);
+    transition: all ease-in 400ms;
+}
+.card-two{
+    position: absolute;
+    left: 35%;
+    top: 28%;
+    transform: rotate(365deg);
+    transition: all ease-in 350ms;
+}
+.card-three{
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: rotate(358deg);
+    transition: all ease-in 375ms;
+}
+.card-four{
+    position: absolute;
+    left: 65%;
+    top: 28%;
+    transform: rotate(345deg);
+    transition: all ease-in 400ms;
+}
+
 .fade-in {
     animation: fadeIn 2s;
     -webkit-animation: fadeIn 2s;
@@ -79,5 +113,26 @@
         top: 20%;
         flex-direction: column;
         align-items: center;
+    }
+
+    .card-one{
+        top: 10%;
+        left: 25%;
+    }
+
+    .card-two{
+        top: 28%;
+        left: 20%;
+    }
+
+    .card-three{
+        top: 50%;
+        left: 32%;
+    }
+
+    .card-four{
+        top: 75%;
+        left: 20%;
+        transform: rotate(380deg)
     }
 }
