@@ -43,6 +43,7 @@
     transition: all 200ms;
     filter: brightness(1);
 }
+
 .card-two{
     position: absolute;
     left: 35%;
