@@ -4,18 +4,21 @@ import {Link} from 'react-router-dom'
 
 const Ratecard = () => {
   const [color, setColor] =useState('')
+  const [suit, setSuit] = useState('')
 
   useEffect(()=>{
+    const suits = ['fa-heart', 'fa-diamond']
     const colors = ['red', 'black']
-    const randomColor = Math.floor(Math.random()*2)
-    setColor(colors[randomColor])
+    const randomIndex = Math.floor(Math.random()*2)
+    setColor(colors[randomIndex])
+    setSuit(suits[randomIndex])
   },[])
 
   return (
     <div className="rate-card inner-border">
       <div className="top-left">
         <h1 style={{color: color}} className="D" >D</h1>
-        <i style={{color: color}} className="fa-solid fa-heart" ></i>
+        <i style={{color: color}} className={`fa-solid ${suit}`} ></i>
       </div>
       <div className="content">
         <h1>Service Name</h1>
