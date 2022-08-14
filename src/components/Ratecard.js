@@ -1,15 +1,21 @@
+import { useEffect, useState } from 'react'
 import './Ratecard.css'
 import {Link} from 'react-router-dom'
 
 const Ratecard = () => {
-  const colors = ['red', 'black']
-  const randomColor = Math.floor(Math.random()*2)
+  const [color, setColor] =useState('')
+
+  useEffect(()=>{
+    const colors = ['red', 'black']
+    const randomColor = Math.floor(Math.random()*2)
+    setColor(colors[randomColor])
+  },[])
 
   return (
     <div className="rate-card inner-border">
       <div className="top-left">
-        <h1 style={{color: colors[randomColor]}} className="D" >D</h1>
-        <i style={{color: colors[randomColor]}} className="fa-solid fa-heart" ></i>
+        <h1 style={{color: color}} className="D" >D</h1>
+        <i style={{color: color}} className="fa-solid fa-heart" ></i>
       </div>
       <div className="content">
         <h1>Service Name</h1>
