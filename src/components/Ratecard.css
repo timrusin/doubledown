@@ -49,11 +49,15 @@
 } */
 
 .D{
-    margin-bottom: -3%;
+    margin-bottom: -5%;
 }
 
 .fa-heart{
-    font-size: .75em;
+    font-size: .7em;
+}
+
+.fa-diamond{
+    font-size: .7em;
 }
 
 .quote-link{
