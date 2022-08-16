@@ -1,6 +1,6 @@
 .rate-card {
-    width: 220px;
-    height: 350px;
+    width: 225px;
+    height: 360px;
     background-color: white;
     border-radius: 5%;
     color: black;
@@ -34,15 +34,15 @@
 
 .top-left{
     position: relative;
-    left: -80px;
-    top: -20px;
+    left: -92px;
+    top: -25px;
     font-size: 1.5em;
 }
 
 .bottom-right{
-    position: relative;
-    left: 80px;
-    top: 15px;
+    position: absolute;
+    left: 191px;
+    top: 293px;
     font-family: serif;
     font-size: 1.5em;
     transform: rotate(180deg);
