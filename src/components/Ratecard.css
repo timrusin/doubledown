@@ -35,14 +35,14 @@
 .top-left{
     position: relative;
     left: -92px;
-    top: -25px;
+    top: -22px;
     font-size: 1.5em;
 }
 
 .bottom-right{
     position: absolute;
     left: 192px;
-    top: 228px;
+    top: 225px;
     font-family: serif;
     font-size: 1.5em;
     transform: rotate(180deg);
