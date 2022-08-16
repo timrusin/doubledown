@@ -42,12 +42,11 @@
 .bottom-right{
     position: absolute;
     left: 192px;
-    top: 223px;
+    top: 228px;
     font-family: serif;
     font-size: 1.5em;
     transform: rotate(180deg);
 }
-
 
 .D{
     margin-bottom: -10px;
@@ -66,7 +65,10 @@ i {
 }
 
 @media screen and (max-width: 1030px) {
-
+    .bottom-right{
+        left: 192px;
+        top: 223px;
+    }
 }
 
 
