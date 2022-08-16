@@ -1,6 +1,6 @@
 .rate-card {
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 350px;
     background-color: white;
     border-radius: 5%;
     color: black;
@@ -39,24 +39,20 @@
     font-size: 1.5em;
 }
 
-/* .bottom-right{
+.bottom-right{
     position: relative;
     left: 80px;
+    top: 15px;
     font-family: serif;
-    top: 0%;
     font-size: 1.5em;
     transform: rotate(180deg);
-} */
+}
 
 .D{
     margin-bottom: -5%;
 }
 
-.fa-heart{
-    font-size: .7em;
-}
-
-.fa-diamond{
+i {
     font-size: .7em;
 }
 
