@@ -30,10 +30,10 @@ const Ratecard = () => {
           <li>service 4 placeholder</li>
         </ul>
         <Link to="/contact" className='quote-link'>GET A QUOTE</Link>
-      </div>
       <div className="bottom-right">
         <h1 style={{color: color}} className="D" >D</h1>
         <i style={{color: color}} className={`fa-solid ${suit}`} ></i>
+      </div>
       </div>
     </div>
   );

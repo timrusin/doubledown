@@ -41,15 +41,16 @@
 
 .bottom-right{
     position: absolute;
-    left: 191px;
-    top: 293px;
+    left: 192px;
+    top: 228px;
     font-family: serif;
     font-size: 1.5em;
     transform: rotate(180deg);
 }
 
+
 .D{
-    margin-bottom: -5%;
+    margin-bottom: -10px;
 }
 
 i {
