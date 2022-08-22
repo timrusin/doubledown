@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className={click ? "navbar active" : "navbar"}>
       <div className="menu-icon" onClick={handleClick}>
-        <i className={click ? "fas fa-toggle-on" : "fas fa-toggle-off"} />
+        <i className={click ? "fas fa-times" : "fas fa-bars"} />
       </div>
       <Link to="/" onClick={closeMenu}>
         <img

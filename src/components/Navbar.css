@@ -80,10 +80,9 @@
     .menu-icon {
         display: block;
         position: absolute;
-        transform: rotate(90deg);
         color: rgb(218, 165, 32);
-        right: 10px;
-        top: 8px;
+        right: 20px;
+        top: 4px;
         font-size: 2.5rem;
         cursor: pointer;
     }
