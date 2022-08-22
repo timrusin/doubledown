@@ -15,13 +15,15 @@
 .about-bio {
     width: 35%;
     height: auto;
-    border: white 2px solid
+    border: white 2px solid;
+    border-radius: 5px;
 }
 
 .about-video {
     width: 55%;
     height: auto;
     border: white 2px solid;
+    border-radius: 5px;
 }
 
 .product-video{
