@@ -1,5 +1,7 @@
 .about-container {
-    padding-top:80px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:200px;
     height: 100%;
     width: 100%;
 }
@@ -8,4 +10,38 @@
     margin-top: 100px;
     text-align: center;
     font-size: 1.5em;
+}
+
+.about-bio {
+    width: 35%;
+    height: auto;
+    border: white 2px solid
+}
+
+.about-video {
+    width: 55%;
+    height: auto;
+    border: white 2px solid;
+}
+
+.product-video{
+    width: 100%;
+}
+
+@media screen and (max-width: 1030px) {
+    .about-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+    
+    .about-bio {
+        width: 90%;
+    }
+
+    .about-video {
+        width: 90%;
+        z-index: -1;
+    }
 }
