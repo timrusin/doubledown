@@ -7,7 +7,7 @@ const Ratecard = () => {
   const [suit, setSuit] = useState('')
 
   useEffect(()=>{
-    const suits = ['fa-heart', 'fa-diamond', 'fa-droplet', 'fa-crown']
+    const suits = ['fa-heart', 'fa-diamond', 'fa-spade', 'fa-club']
     const colors = ['red', 'black']
     const randomColor = Math.floor(Math.random()*2)
     const randomSuit = Math.floor(Math.random()*4)
