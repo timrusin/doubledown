@@ -77,18 +77,43 @@
 }
 
 @media screen and (max-width: 1030px) {
+    .navbar {
+        height: 65px;
+    }
+    
     .menu-icon {
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: absolute;
         color: rgb(218, 165, 32);
-        right: 20px;
-        top: 4px;
-        font-size: 2.5rem;
+        top: 45px;
+        right: 15px;
+        font-size: 1.8rem;
         cursor: pointer;
     }
 
-    .navbar {
-        height: 65px;
+    .menu-dashes {
+        margin: -14px 0 -14px 0;
+        transition: all 100ms;
+    }
+    
+    .menu-dashes-angle1{
+        position: absolute;
+        transform: rotate(225deg);
+        top: -5px;
+        right: 0px;
+        margin: -20px 0 -20px 0;
+        transition: all .25s ease;
+    }
+    
+    .menu-dashes-angle2{
+        position: absolute;
+        transform: rotate(-225deg);
+        top: -5px;
+        right: 0px;
+        transition: all .25s ease;
+        margin: -20px 0 -20px 0;
+        filter: opacity(.6);
     }
 
     .nav-menu {

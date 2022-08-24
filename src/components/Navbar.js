@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <div className={click ? "navbar active" : "navbar"}>
       <div className="menu-icon" onClick={handleClick}>
-        <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        <i className={click ? "fas fa-dash menu-dashes-angle1" : "fas fa-dash menu-dashes"}/>
+        <i className={click ? "fas fa-dash menu-dashes-angle2" : "fas fa-dash menu-dashes"}/>
+        <i className={click ? "fas fa-dash menu-dashes-angle2" : "fas fa-dash menu-dashes"}/>
       </div>
       <Link to="/" onClick={closeMenu}>
         <img
