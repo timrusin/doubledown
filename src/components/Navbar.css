@@ -103,7 +103,7 @@
         top: -5px;
         right: 0px;
         margin: -20px 0 -20px 0;
-        transition: all .25s ease;
+        transition: all 250ms;
     }
     
     .menu-dashes-angle2{
@@ -111,7 +111,7 @@
         transform: rotate(-225deg);
         top: -5px;
         right: 0px;
-        transition: all .25s ease;
+        transition: all 250ms;
         margin: -20px 0 -20px 0;
         filter: opacity(.6);
     }
@@ -129,8 +129,9 @@
         width: 100%;
         background-color: rgb(214, 45, 45);
         top: 49px;
+        left: 0px;
         border-bottom: rgb(218, 165, 32) 2px solid;
-        transition: height .25s ease;
+        transition: height 250ms ease;
     }
 
     .nav-logo {
