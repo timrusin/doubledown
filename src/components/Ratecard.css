@@ -69,6 +69,9 @@ i {
         left: 192px;
         top: 220px;
     }
+    .rate-card:hover{
+        transform: scale(105%);
+    }
 }
 
 
