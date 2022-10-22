@@ -145,8 +145,6 @@
         transform: rotate(-10deg);
     }
 
-    
-
     .logo-spin {
         transform: rotate(-450deg);
         transition: all 0.5s ease;
