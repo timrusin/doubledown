@@ -7,25 +7,31 @@ const About = () => {
       <div className="about-bio">
         <h1>About Double Down</h1>
         <p>
-          Minim nulla Lorem aliqua sit esse ut ullamco duis. Labore anim officia
-          excepteur sint eiusmod voluptate mollit. Dolor irure nulla esse
-          excepteur est in sit ex dolor quis esse qui.
+        My name is Donnie Longtin and I am the owner and operator of Double Down Auto Detailing. 
+        Ever since owning my first car, a 1989 Mitsubishi Galant, I have been passionate about the maintenance of vehicles. 
         </p>
 
         <p>
-          Ut amet ad eu ipsum. Laborum labore amet aute consequat aute laborum
-          incididunt. Consectetur id mollit Lorem pariatur velit do. Duis ad
-          laborum ut nisi qui dolor.
+        As I have grown older I have been able to share my passion for detailing with others in supporting their needs 
+        for a well-maintained vehicle. 
         </p>
 
         <p>
-          Sit adipisicing non nisi dolor. Commodo tempor qui nulla ad incididunt
-          proident veniam et dolore in veniam laborum id. Esse ipsum esse
-          eiusmod ut dolore consectetur sint sint voluptate incididunt. Cillum
-          irure ullamco occaecat elit reprehenderit laboris duis veniam eu amet
-          cupidatat pariatur consequat voluptate. Ullamco laborum aliquip
-          occaecat ad elit cillum est ut. Aute non qui fugiat ipsum mollit est
-          tempor non voluptate incididunt et.
+        What started as a weekend hobby over the years has grown into an obsession. 
+        There is nothing more rewarding than taking the time to produce an incredibly detailed end result.  
+        </p>
+
+        <p>
+        I pride myself on staying up to date on the most advanced detailing processes and most advanced approaches
+         toward cleaning. 
+        </p>
+
+        <p>
+        In my opinion, there is nothing more satisfying than climbing into a clean vehicle and focusing on your tasks at hand. 
+        </p>
+
+        <p>
+        Thank you for giving me the opportunity to produce a great result detailing your vehicle. 
         </p>
       </div>
       <div className="about-video">
