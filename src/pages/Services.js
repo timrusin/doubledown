@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Services.css'
 import Ratecard from '../components/Ratecard';
+import ServiceData from '../data/ServicesData'
 
 const Services = () => {
   const [cardOne, setCardOne]= useState(false)
@@ -24,15 +25,15 @@ const Services = () => {
     setCardOne(true)
     setTimeout(CardTwo,400)
 },[])
-
+  console.log(ServiceData[0]);
   return (
 
     <div className="services-container">
       <div className="cards">
-        <div className={cardOne ? "card-one" : "card-hide"}><Ratecard /></div>
-        <div className={cardTwo? "card-two" : "card-hide"}><Ratecard /></div>
-        <div className={cardThree ? "card-three" : "card-hide"}><Ratecard /></div>
-        <div className={cardFour ? "card-four" : "card-hide"}><Ratecard /></div>
+        <div className={cardOne ? "card-one" : "card-hide"}><Ratecard name = {ServiceData[0].name}/></div>
+        <div className={cardTwo? "card-two" : "card-hide"}><Ratecard name = {ServiceData[1].name}/></div>
+        <div className={cardThree ? "card-three" : "card-hide"}><Ratecard name = {ServiceData[2].name}/></div>
+        <div className={cardFour ? "card-four" : "card-hide"}><Ratecard name = {ServiceData[3].name}/></div>
       </div>
     </div>
   );

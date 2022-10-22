@@ -1,5 +1,6 @@
 const ServicesData = [
 {
+    id: 1,
     name: "Maintenance Wash",
     bulletOne:"",
     bulletTwo:"",
@@ -10,6 +11,7 @@ const ServicesData = [
     bulletSeven:""
 },
 {
+    id: 2,
     name: "Premium Wash and Paint Correction",
     bulletOne:"",
     bulletTwo:"",
@@ -22,6 +24,7 @@ const ServicesData = [
     butlletNine:""
 },
 {
+    id: 3,
     name: "Maintenance Interior Detail",
     bulletOne:"",
     bulletTwo:"",
@@ -31,6 +34,7 @@ const ServicesData = [
     bulletSix:""
 },
 {
+    id: 4,
     name: "Premium Inerior Detail",
     bulletOne:"",
     bulletTwo:"",
@@ -42,5 +46,6 @@ const ServicesData = [
     bulletEight:"",
     butlletNine:""
 }
-
 ]
+
+export default ServicesData
