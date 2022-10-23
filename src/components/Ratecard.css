@@ -85,11 +85,19 @@ i {
     .content{
         top: -45px;
     }
-    
+
+    .top-left{
+        position: relative;
+        left: -95px;
+        top: -28px;
+        font-size: 1.5em;
+    }
+
     .bottom-right{
         left: 194px;
-        top: 242px;
+        top: 245px;
     }
+
     .rate-card:hover{
         transform: scale(105%);
     }
