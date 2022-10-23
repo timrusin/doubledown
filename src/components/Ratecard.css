@@ -82,9 +82,13 @@ i {
 }
 
 @media screen and (max-width: 1030px) {
+    .content{
+        top: -45px;
+    }
+    
     .bottom-right{
         left: 194px;
-        top: 242px;
+        top: 238px;
     }
     .rate-card:hover{
         transform: scale(105%);
