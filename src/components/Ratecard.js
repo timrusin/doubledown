@@ -25,12 +25,18 @@ const Ratecard = (props) => {
       </div>
       <div className="content">
         <h1 className='rate-name'>{props.name}</h1>
-        <ul className="service-list">
-          <li>service 1 placeholder</li>
-          <li>service 2 placeholder</li>
-          <li>service 3 placeholder</li>
-          <li>service 4 placeholder</li>
-        </ul>
+        <h3 className="sub-name">{props.subName}</h3>
+        <ol className="service-list">
+          <li>{props.bulletOne}</li>
+          <li>{props.bulletTwo}</li>
+          <li>{props.bulletThree}</li>
+          <li>{props.bulletFour}</li>
+          <li>{props.bulletFive}</li>
+          <li>{props.bulletSix}</li>
+          <li>{props.bulletSeven}</li>
+          <li>{props.bulletEight}</li>
+          <li>{props.bulletNine}</li>
+        </ol>
         <Link to="/contact" className="quote-link">
           GET A QUOTE
         </Link>

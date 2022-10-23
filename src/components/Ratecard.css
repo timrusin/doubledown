@@ -15,15 +15,18 @@
 
 .content{
     position: relative;
-    top: -25px;
-}
-
-.rate-card h1{
-    font-size: 1.5em;
+    top: -35px;
 }
 
 .rate-name{
-    font-size: 10px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.sub-name{
+    font-size:12px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .inner-border {
@@ -32,21 +35,30 @@
 }
 
 .service-list {
+    list-style: none;
+    position: relative;
+    left: -40px;
     text-align: left;
-    list-style:outside;
+    width: 220px;
+    text-align: center;
+}
+
+.service-list li{
+    font-size: 12px;
+    margin-bottom: 6px;
 }
 
 .top-left{
     position: relative;
-    left: -92px;
+    left: -95px;
     top: -25px;
     font-size: 1.5em;
 }
 
 .bottom-right{
     position: absolute;
-    left: 192px;
-    top: 228px;
+    left: 194px;
+    top: 242px;
     font-family: serif;
     font-size: 1.5em;
     transform: rotate(180deg);
@@ -54,6 +66,7 @@
 
 .D{
     margin-bottom: -10px;
+    font-size: 1.5em;
 }
 
 i {
