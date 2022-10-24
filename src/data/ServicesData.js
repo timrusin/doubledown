@@ -14,7 +14,7 @@ const ServicesData = [
 {
     id: 2,
     name: "Premium Wash",
-    subName: "- with paint correction*",
+    subName: "with paint correction*",
     bulletOne:"- Thorough cleaning of wheels and tires. ",
     bulletTwo:"- Foaming pre-wash and chemical paint decontamination.",
     bulletThree:"- Scratch Free Contact Wash. ",
