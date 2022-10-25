@@ -4,8 +4,37 @@
     width: 100%;
 }
 
+.home-container img{
+    position: relative;
+    z-index: -1;
+    border-bottom: black 4px solid;
+    top: -80px;
+    max-height: 20vw;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 60%;
+}
+
 .home-title {
     margin-top: 100px;
     text-align: center;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 1030px) {
+    .home-container img{
+        top: -79px;
+        max-height: 25vw;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .home-container img{
+        top: -79px;
+        max-height: 40vw;
+        width: 100%;
+    }
 }

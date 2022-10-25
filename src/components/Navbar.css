@@ -3,9 +3,10 @@
     height: 100px;
     width: 100%;
     border-bottom: rgb(218, 165, 32) 2px solid;
-    background-color: rgb(214, 45, 45);
+    background-color: rgba(214, 45, 45, 0.8);
     display: flex;
     align-items: center;
+    z-index: 9999;
 }
 
 .nav-logo {
@@ -127,7 +128,7 @@
     .nav-menu.active {
         height: 150px;
         width: 100%;
-        background-color: rgb(214, 45, 45);
+        background-color: rgb(214, 45, 45, .8);
         top: 49px;
         left: 0px;
         border-bottom: rgb(218, 165, 32) 2px solid;
