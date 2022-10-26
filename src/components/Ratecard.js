@@ -16,39 +16,38 @@ const Ratecard = (props) => {
   },[])
 
   return (
-    <div className="rate-card inner-border">
-      {/* <img src="/assets/photos/BMW_side.jpeg" alt="testng" className='card-banner'></img> */}
-      <div className="top-left">
-        <h1 style={{ color: color }} className="D">
-          D
-        </h1>
-        <i style={{ color: color }} className={`fa-solid ${suit}`}></i>
-      </div>
-      <div className="content">
-        <h1 className='rate-name'>{props.name}</h1>
-        <h3 className="sub-name">{props.subName}</h3>
-        <ol className="service-list">
-          <li>{props.bulletOne}</li>
-          <li>{props.bulletTwo}</li>
-          <li>{props.bulletThree}</li>
-          <li>{props.bulletFour}</li>
-          <li>{props.bulletFive}</li>
-          <li>{props.bulletSix}</li>
-          <li>{props.bulletSeven}</li>
-          <li>{props.bulletEight}</li>
-          <li>{props.bulletNine}</li>
-        </ol>
-        <Link to="/contact" className="quote-link">
-          GET A QUOTE
-        </Link>
-        <div className="bottom-right">
+      <div className="rate-card inner-border">
+        <div className="top-left">
           <h1 style={{ color: color }} className="D">
             D
           </h1>
           <i style={{ color: color }} className={`fa-solid ${suit}`}></i>
         </div>
+        <div className="content">
+          <h1 className="rate-name">{props.name}</h1>
+          <h3 className="sub-name">{props.subName}</h3>
+          <ol className="service-list">
+            <li>{props.bulletOne}</li>
+            <li>{props.bulletTwo}</li>
+            <li>{props.bulletThree}</li>
+            <li>{props.bulletFour}</li>
+            <li>{props.bulletFive}</li>
+            <li>{props.bulletSix}</li>
+            <li>{props.bulletSeven}</li>
+            <li>{props.bulletEight}</li>
+            <li>{props.bulletNine}</li>
+          </ol>
+          <Link to="/contact" className="quote-link">
+            GET A QUOTE
+          </Link>
+          <div className="bottom-right">
+            <h1 style={{ color: color }} className="D">
+              D
+            </h1>
+            <i style={{ color: color }} className={`fa-solid ${suit}`}></i>
+          </div>
+        </div>
       </div>
-    </div>
   );
 }
 
