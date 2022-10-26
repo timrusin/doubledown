@@ -3,7 +3,7 @@ import './About.css'
 import dev_bg_low from '../assets/images/products-edit-low.mp4'
 const About = () => {
   return (
-    <div className="about-container fade-in">
+    <div className="about-container fade">
       <div className="about-bio">
         <h1>About Double Down</h1>
         <p>

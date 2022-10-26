@@ -17,6 +17,7 @@ const Ratecard = (props) => {
 
   return (
     <div className="rate-card inner-border">
+      {/* <img src="/assets/photos/BMW_side.jpeg" alt="testng" className='card-banner'></img> */}
       <div className="top-left">
         <h1 style={{ color: color }} className="D">
           D
