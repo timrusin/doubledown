@@ -89,6 +89,10 @@
 
 
 @media screen and (max-width: 1030px) {
+    .services-container {
+        margin-top: 30px;
+    }
+    
     .services-title {
         font-size: 3vw;
         text-align: center;
