@@ -33,6 +33,19 @@
     border: 10px solid rgb(240, 240, 240);
 }
 
+.card-banner{
+    position: absolute;
+    z-index: 0;
+    left: 136px;
+    top: 8px;
+    opacity: .8;
+    box-shadow: 0 0 10px black;
+    width: 80%;
+    height: 40px;
+    object-fit: cover;
+    z-index: 0;
+}
+
 .service-list {
     list-style: none;
     position: relative;
@@ -98,7 +111,7 @@ i {
     }
 
     .rate-card:hover{
-        transform: scale(105%);
+        transform: scale(115%);
     }
 }
 

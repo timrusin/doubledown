@@ -9,7 +9,9 @@ const ServicesData = [
     bulletFour:"- Forced air, and microfiber drying.",
     bulletFive:"- Spray paint protection. ",
     bulletSix:"- Water-based, sling-free tire dressing",
-    bulletSeven:"- Plastic protection."
+    bulletSeven:"- Plastic protection.",
+    banner:"/assets/photos/BMW_side.jpeg",
+    alt: "BMW"
 },
 {
     id: 2,
@@ -23,7 +25,9 @@ const ServicesData = [
     bulletSix:"- Micro-swilling and paint defect removal through paint polishing ",
     bulletSeven:"- Long Term Paint protection applied.",
     bulletEight:"- Water-based, sling-free tire dressing",
-    bulletNine:"- Plastic protection."
+    bulletNine:"- Plastic protection.",
+    banner:"/assets/photos/Tacoma.jpeg",
+    alt: "Chevy Sierra"
 },
 {
     id: 3,
@@ -34,7 +38,9 @@ const ServicesData = [
     bulletThree:"- Clean all hard plastic surfaces. ",
     bulletFour:"- Application of UV protection to all hard plastic interior surfaces. ",
     bulletFive:"- Clearing of vehicle door jams. ",
-    bulletSix:"- Clean vehicle interior windows and mirrors."
+    bulletSix:"- Clean vehicle interior windows and mirrors.",
+    banner: "/assets/photos/interior_back_after.jpeg",
+    alt: "clean interior"
 },
 {
     id: 4,
@@ -47,7 +53,9 @@ const ServicesData = [
     bulletSix:"- Clean all hard plastic surfaces. ",
     bulletSeven:"- Application of UV protection to all hard plastic interior surfaces.",
     bulletEight:"- Clearing of vehicle door jams. ",
-    bulletNine:"- Clean vehicle interior windows and mirrors."
+    bulletNine:"- Clean vehicle interior windows and mirrors.",
+    banner: "/assets/photos/Lambo_int.jpeg",
+    alt: "lambo interior"
 }
 ]
 

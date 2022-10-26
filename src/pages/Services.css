@@ -35,7 +35,7 @@
     top: 20%;
     transform: rotate(345deg);
     transition: all ease-in 400ms;
-    filter: brightness(.75);
+    filter: brightness(.85);
 }
 .card-one:hover{
     transform: rotate(360deg);
@@ -50,7 +50,7 @@
     top: 28%;
     transform: rotate(365deg);
     transition: all ease-in 350ms;
-    filter: brightness(.75);
+    filter: brightness(.85);
 }
 .card-two:hover{
     transform: rotate(360deg);
@@ -64,7 +64,7 @@
     top: 22%;
     transform: rotate(358deg);
     transition: all ease-in 375ms;
-    filter: brightness(.75);
+    filter: brightness(.85);
 }
 .card-three:hover{
     transform: rotate(360deg);
@@ -78,7 +78,7 @@
     top: 28%;
     transform: rotate(345deg);
     transition: all ease-in 400ms;
-    filter: brightness(.75);
+    filter: brightness(.85);
 }
 .card-four:hover{
     transform: rotate(360deg);

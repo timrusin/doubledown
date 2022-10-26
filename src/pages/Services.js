@@ -40,6 +40,9 @@ const Services = () => {
             bulletFive={ServiceData[0].bulletFive}
             bulletSix={ServiceData[0].bulletSix}
             bulletSeven={ServiceData[0].bulletSeven}
+            banner={ServiceData[0].banner}
+            alt={ServiceData[0].alt}
+            position={ServiceData[0].position}
           />
         </div>
         <div className={cardTwo ? "card-two" : "card-hide"}>
@@ -55,6 +58,9 @@ const Services = () => {
             bulletSeven={ServiceData[1].bulletSeven}
             bulletEight={ServiceData[1].bulletEight}
             bulletNine={ServiceData[1].bulletNine}
+            banner={ServiceData[1].banner}
+            alt={ServiceData[1].alt}
+            position={ServiceData[1].position}
           />
         </div>
         <div className={cardThree ? "card-three" : "card-hide"}>
@@ -66,6 +72,9 @@ const Services = () => {
             bulletFour={ServiceData[2].bulletFour}
             bulletFive={ServiceData[2].bulletFive}
             bulletSix={ServiceData[2].bulletSix}
+            banner={ServiceData[2].banner}
+            alt={ServiceData[2].alt}
+            position={ServiceData[2].position}
            />
         </div>
         <div className={cardFour ? "card-four" : "card-hide"}>
@@ -78,7 +87,10 @@ const Services = () => {
           bulletSix={ServiceData[3].bulletSix}
           bulletSeven={ServiceData[3].bulletSeven}
           bulletEight={ServiceData[3].bulletEight}
-          bulletNine={ServiceData[3].bulletNine} />
+          bulletNine={ServiceData[3].bulletNine}
+          banner={ServiceData[3].banner}
+          alt={ServiceData[3].alt}
+          position={ServiceData[3].position} />
         </div>
       </div>
     </div>
