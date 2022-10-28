@@ -35,7 +35,7 @@
 
     .images {
         width: 60%;
-        border: 5px solid rgb(218, 165, 32);
+        border: 2.5px solid rgb(218, 165, 32);
         border-radius: 15px;;
         box-shadow: 0 0 10px white;
     }
