@@ -16,10 +16,14 @@
     font-size: 2vw;
 }
 
-.arrows{
+.arrows-desktop{
     font-size: 3vw;
     align-self: center;
     cursor: pointer;
+}
+
+.arrows-mobile{
+    display: none;
 }
 
 @media screen and (max-width: 1030px) {
@@ -41,10 +45,14 @@
         font-size: 4vw;
     }
 
-    .arrows{
+    .arrows-desktop{
+        display: none;
+    }
+
+    .arrows-mobile{
+        display: block;
         font-size: 5vw;
         align-self: center;
         cursor: pointer;
-        margin-bottom: 10px;
     }
 }
