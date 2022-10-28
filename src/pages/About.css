@@ -1,9 +1,9 @@
 .about-container {
     display: flex;
     justify-content: space-around;
-    padding-top:200px;
     height: 100%;
     width: 100%;
+    margin-top: -75px;
 }
 
 .about-title {
@@ -14,22 +14,21 @@
 
 .about-bio {
     width: 35%;
-    padding: 0 10px;
+    padding-left: 10px;
     text-align: left;
     height: auto;
-    border: white 2px solid;
     border-radius: 5px;
 }
 
 .about-video {
-    width: 55%;
+    /* width: 55%; */
     height: auto;
-    border: white 2px solid;
     border-radius: 5px;
 }
 
 .product-video{
     width: 100%;
+    border: rgb(0, 0, 0) 2px solid;
 }
 
 @media screen and (max-width: 1030px) {
@@ -37,16 +36,16 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-around;
-        padding-top: 100px;
     }
     
     .about-bio {
         width: 85%;
-        margin-top: 10px;;
+        text-align: center;
     }
 
     .about-video {
         width: 90%;
         z-index: -1;
+        margin-bottom: -10px;
     }
 }

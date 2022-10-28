@@ -28,11 +28,11 @@ const Navbar = () => {
         auto detailing service
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-links" to="/about" onClick={closeMenu}>
             About
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link className="nav-links" to="/services" onClick={closeMenu}>
             Services

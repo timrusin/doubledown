@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-container fade">
       <div className="about-bio">
-        <h1>About Double Down</h1>
+        <h1>Welcome</h1>
         <p>
         My name is Donnie Longtin and I am the owner and operator of Double Down Auto Detailing. 
         Ever since owning my first car, a 1989 Mitsubishi Galant, I have been passionate about the maintenance of vehicles. 
