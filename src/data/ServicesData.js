@@ -10,7 +10,7 @@ const ServicesData = [
     bulletFive:"- Spray paint protection. ",
     bulletSix:"- Water-based, sling-free tire dressing",
     bulletSeven:"- Plastic protection.",
-    banner:"/assets/photos/BMW_side.jpeg",
+    banner:"/assets/small_photos/BMW_side_small.jpg",
     alt: "BMW"
 },
 {
@@ -26,7 +26,7 @@ const ServicesData = [
     bulletSeven:"- Long Term Paint protection applied.",
     bulletEight:"- Water-based, sling-free tire dressing",
     bulletNine:"- Plastic protection.",
-    banner:"/assets/photos/Tacoma.jpeg",
+    banner:"/assets/small_photos/Tacoma_small.jpg",
     alt: "Chevy Sierra"
 },
 {
@@ -39,7 +39,7 @@ const ServicesData = [
     bulletFour:"- Application of UV protection to all hard plastic interior surfaces. ",
     bulletFive:"- Clearing of vehicle door jams. ",
     bulletSix:"- Clean vehicle interior windows and mirrors.",
-    banner: "/assets/photos/interior_back_after.jpeg",
+    banner: "/assets/small_photos/interior_back_after_small.jpg",
     alt: "clean interior"
 },
 {
@@ -54,7 +54,7 @@ const ServicesData = [
     bulletSeven:"- Application of UV protection to all hard plastic interior surfaces.",
     bulletEight:"- Clearing of vehicle door jams. ",
     bulletNine:"- Clean vehicle interior windows and mirrors.",
-    banner: "/assets/photos/Lambo_int.jpeg",
+    banner: "/assets/small_photos/Lambo_int_small.jpeg",
     alt: "lambo interior"
 }
 ]

@@ -4,7 +4,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="home-container fade">
-      <img src="/assets/photos/lambo_front.jpeg" alt="lambo"></img>
+      <img src="/assets/medium_photos/lambo_front_medium.jpeg" alt="lambo"></img>
     </div>
   );
 }
