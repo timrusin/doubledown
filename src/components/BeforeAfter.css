@@ -1,0 +1,50 @@
+.before-after-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.images {
+    width: 70%;
+    border: 5px solid rgb(218, 165, 32);
+    border-radius: 15px;;
+    box-shadow: 0 0 10px white;
+}
+
+.before-after {
+    margin-top: 0;
+    font-size: 2vw;
+}
+
+.arrows{
+    font-size: 3vw;
+    align-self: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1030px) {
+    .before-after-container {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+    }
+
+    .images {
+        width: 70%;
+        border: 5px solid rgb(218, 165, 32);
+        border-radius: 15px;;
+        box-shadow: 0 0 20px white;
+    }
+
+    .before-after {
+        margin: 3px 0 10px 0;
+        font-size: 4vw;
+    }
+
+    .arrows{
+        font-size: 5vw;
+        align-self: center;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+}
