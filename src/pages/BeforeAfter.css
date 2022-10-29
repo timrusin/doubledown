@@ -1,5 +1,20 @@
 .before-after-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.slider-container {
+    display: flex;
     width: 80%;
     height: auto;
 }
@@ -31,6 +46,10 @@
 
 @media screen and (max-width: 1030px) {
     .before-after-container {
+        padding-top: 85px;
+    }
+    
+    .slider-container {
         flex-direction: column;
         width: 80%;
         height: auto;

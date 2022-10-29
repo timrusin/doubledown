@@ -23,10 +23,10 @@ const BeforeAfter = () => {
       if (index === Data.length - 1) setIndex(0)
     }
   return (
-    <>
+  <div className='before-after-container'>
     <i class="fa-sharp fa-solid fa-arrow-left arrows-mobile" onClick={previousPic}></i>
-        <div className='before-after-container'>
-        <i class="fa-sharp fa-solid fa-arrow-left arrows-desktop" onClick={previousPic}></i>
+        <div className='slider-container'>
+            <i class="fa-sharp fa-solid fa-arrow-left arrows-desktop" onClick={previousPic}></i>
             <div className='image'>
                 <img src={Data[index].img_before} alt={Data[index].alt_before} className='images'></img>
                 <h1 className='before-after'>BEFORE</h1>
@@ -38,7 +38,7 @@ const BeforeAfter = () => {
             <i class="fa-sharp fa-solid fa-arrow-right arrows-desktop" onClick={nextPic}></i>
         </div>
         <i class="fa-sharp fa-solid fa-arrow-right arrows-mobile" onClick={nextPic}></i>
-    </>
+  </div>
   )
 }
 

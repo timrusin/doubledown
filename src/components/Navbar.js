@@ -28,19 +28,14 @@ const Navbar = () => {
         auto detailing service
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
-        {/* <li className="nav-item">
-          <Link className="nav-links" to="/about" onClick={closeMenu}>
-            About
-          </Link>
-        </li> */}
         <li className="nav-item">
           <Link className="nav-links" to="/services" onClick={closeMenu}>
             Services
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-links" to="/gallery" onClick={closeMenu}>
-            Gallery
+          <Link className="nav-links" to="/before_after" onClick={closeMenu}>
+            Before/After
           </Link>
         </li>
         <li className="nav-item">
