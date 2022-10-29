@@ -39,7 +39,7 @@ const Ratecard = (props) => {
             <li>{props.bulletNine}</li>
           </ol>
           <Link to="/contact" className="quote-link">
-            GET A QUOTE
+            GET A FREE QUOTE
           </Link>
           <div className="bottom-right">
             <h1 style={{ color: color }} className="D">
