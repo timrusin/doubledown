@@ -12,7 +12,7 @@ const BeforeAfter = () => {
         }, 6000);
         return () => clearInterval(interval);
     });
-    console.log(index);
+    
     const previousPic = () => {
       setIndex(index - 1)
       if (index === 0) setIndex(Data.length - 1)
