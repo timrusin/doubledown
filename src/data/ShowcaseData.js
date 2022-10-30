@@ -94,7 +94,7 @@ const Showcase = [
         title: 'Lexus',
         img: '/assets/showcase_photos/lexus.jpeg',
         img_alt: 'Lexus paint correction',
-        position: ''
+        position: '80% 80%'
     },
     {
         id: 15,
