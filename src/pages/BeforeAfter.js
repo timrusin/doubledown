@@ -23,7 +23,7 @@ const BeforeAfter = () => {
       if (index === Data.length - 1) setIndex(0)
     }
   return (
-  <div className='before-after-container'>
+  <div className='before-after-container fade'>
     <i class="fa-solid fa-chevron-left arrows-mobile" onClick={previousPic}></i>
         <div className='slider-container'>
             <i class="fa-solid fa-chevron-left arrows-desktop" onClick={previousPic}></i>
