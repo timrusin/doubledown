@@ -95,14 +95,6 @@ i {
 }
 
 @media screen and (max-width: 1030px) {
-   
-    .card-banner{
-        left: 136px;
-        top: 8px;
-        width: 80%;
-        height: 40px;
-    }
-    
     .content{
         top: -45px;
     }

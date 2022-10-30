@@ -35,9 +35,9 @@ const BeforeAfter = () => {
                 <img src={Data[index].img_after} alt={Data[index].alt_after} className='images'></img>
                 <h1 className='before-after'>AFTER</h1>
             </div>
-            <i class="fa-solid fa-chevron-right arrows-desktop" onClick={nextPic}></i>
+            <i className="fa-solid fa-chevron-right arrows-desktop" onClick={nextPic}></i>
         </div>
-        <i class="fa-solid fa-chevron-right arrows-mobile" onClick={nextPic}></i>
+        <i className="fa-solid fa-chevron-right arrows-mobile" onClick={nextPic}></i>
   </div>
   )
 }

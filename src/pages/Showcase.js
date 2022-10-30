@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import ShowcaseData from '../data/ShowcaseData'
+import showcaseData from '../data/ShowcaseData'
+import './Showcase.css'
 
 const Showcase = () => {
     const [index, setIndex] = useState(0)
@@ -7,27 +8,27 @@ const Showcase = () => {
     useEffect(() => {
           const interval = setInterval(() => {
             setIndex(index+1)
-            if (index >= ShowcaseData.length -1) setIndex(0)
-          }, 6000);
+            if (index >= showcaseData.length -1) setIndex(0)
+          }, 5000);
           return () => clearInterval(interval);
       });
-      console.log(index);
+
       const previousPic = () => {
         setIndex(index - 1)
-        if (index === 0) setIndex(ShowcaseData.length - 1)
+        if (index === 0) setIndex(showcaseData.length - 1)
       }
   
       const nextPic = () => {
         setIndex(index + 1)
-        if (index === ShowcaseData.length - 1) setIndex(0)
+        if (index === showcaseData.length - 1) setIndex(0)
       }
     return (
-      <div className= 'home-carousel fade'>
-      <img src={ShowcaseData[index].url} alt={ShowcaseData[index].alt} style={{objectPosition: ShowcaseData[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide fade'}></img>
-      <img src={ShowcaseData[index].url} alt={ShowcaseData[index].alt} style={{objectPosition: ShowcaseData[index].position}} className={index % 2 === 0 ? 'bg-image fade' : 'hide fade'}></img>
+      <div className= 'showcase-carousel fade'>
+      <img src={showcaseData[index].img} alt={showcaseData[index].alt} style={{objectPosition: showcaseData[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide'}></img>
+      <img src={showcaseData[index].img} alt={showcaseData[index].alt} style={{objectPosition: showcaseData[index].position}} className={index % 2 === 0 ? 'bg-image fade' : 'hide'}></img>
         <div className='nav-arrows-container'>
-          <i className="fa-thin fa-arrow-left arrows" onClick= {previousPic}></i>
-          <i className="fa-thin fa-arrow-right arrows" onClick= {nextPic}></i>
+          <i className="fa-solid fa-chevron-left arrows" onClick= {previousPic}></i>
+          <i className="fa-solid fa-chevron-right arrows" onClick= {nextPic}></i>
         </div>
       </div>
     )
