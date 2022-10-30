@@ -21,12 +21,13 @@
     
     .arrows{
       cursor: pointer;
-      font-size: 4vw;
+      font-size: 60px;
       transition: filter 200ms;
+      color: rgba(214, 45, 45, 0.8)
     }
     
     .arrows:hover{
-      filter: brightness(2);
+      color: #fff;
     }
     
     @media screen and (max-width: 1120px) {
@@ -44,8 +45,13 @@
       }
 
       .arrows{
-        font-size: 30px;
+        font-size: 40px;
         padding: 0 40px;
+        font-weight: bold;
+      }
+
+      .arrows:hover{
+        color:rgba(214, 45, 45, 0.8)
       }
 
     }

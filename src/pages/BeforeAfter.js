@@ -24,9 +24,9 @@ const BeforeAfter = () => {
     }
   return (
   <div className='before-after-container fade'>
-    <i class="fa-solid fa-chevron-left arrows-mobile" onClick={previousPic}></i>
+    <i class="fa-thin fa-chevron-left arrows-mobile" onClick={previousPic}></i>
         <div className='slider-container'>
-            <i class="fa-solid fa-chevron-left arrows-desktop" onClick={previousPic}></i>
+            <i class="fa-thin fa-chevron-left arrows-desktop" onClick={previousPic}></i>
             <div className='image'>
                 <img src={Data[index].img_before} alt={Data[index].alt_before} className='images'></img>
                 <h1 className='before-after'>BEFORE</h1>
@@ -35,9 +35,9 @@ const BeforeAfter = () => {
                 <img src={Data[index].img_after} alt={Data[index].alt_after} className='images'></img>
                 <h1 className='before-after'>AFTER</h1>
             </div>
-            <i className="fa-solid fa-chevron-right arrows-desktop" onClick={nextPic}></i>
+            <i className="fa-thin fa-chevron-right arrows-desktop" onClick={nextPic}></i>
         </div>
-        <i className="fa-solid fa-chevron-right arrows-mobile" onClick={nextPic}></i>
+        <i className="fa-thin fa-chevron-right arrows-mobile" onClick={nextPic}></i>
   </div>
   )
 }

@@ -9,7 +9,7 @@ const Showcase = () => {
           const interval = setInterval(() => {
             setIndex(index+1)
             if (index >= showcaseData.length -1) setIndex(0)
-          }, 5000);
+          }, 100000);
           return () => clearInterval(interval);
       });
 
@@ -27,8 +27,8 @@ const Showcase = () => {
       <img src={showcaseData[index].img} alt={showcaseData[index].alt} style={{objectPosition: showcaseData[index].position}} className={index % 2 !== 0 ? 'bg-image fade' : 'hide'}></img>
       <img src={showcaseData[index].img} alt={showcaseData[index].alt} style={{objectPosition: showcaseData[index].position}} className={index % 2 === 0 ? 'bg-image fade' : 'hide'}></img>
         <div className='nav-arrows-container'>
-          <i className="fa-solid fa-chevron-left arrows" onClick= {previousPic}></i>
-          <i className="fa-solid fa-chevron-right arrows" onClick= {nextPic}></i>
+          <i className="fa-thin fa-chevron-left arrows" onClick= {previousPic}></i>
+          <i className="fa-thin fa-chevron-right arrows" onClick= {nextPic}></i>
         </div>
       </div>
     )

@@ -77,7 +77,8 @@
 
     .arrows-mobile{
         display: block;
-        font-size: 30px;    
+        font-size: 30px;   
+        font-weight: bold; 
         align-self: center;
         cursor: pointer;
     }
