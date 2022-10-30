@@ -59,7 +59,7 @@ const Showcase = [
         title: 'Clean interior',
         img: '/assets/showcase_photos/int_clean.jpeg',
         img_alt: 'Clean interior',
-        position: '0 1%'
+        position: ''
     },
     {
         id: 10,

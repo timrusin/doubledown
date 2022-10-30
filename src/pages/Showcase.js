@@ -9,7 +9,7 @@ const Showcase = () => {
           const interval = setInterval(() => {
             setIndex(index+1)
             if (index >= showcaseData.length -1) setIndex(0)
-          }, 100000);
+          }, 5000);
           return () => clearInterval(interval);
       });
 
