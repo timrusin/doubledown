@@ -1,6 +1,6 @@
 .rate-card {
-    width: 225px;
-    height: 360px;
+    width: 245px;
+    height: 380px;
     background-color: white;
     border-radius: 5%;
     color: black;
@@ -36,12 +36,13 @@
 .card-banner{
     position: absolute;
     z-index: 0;
-    left: 136px;
-    top: 8px;
+    left: 140px;
+    top: 5px;
+    border-radius: 2px;
     opacity: .8;
     box-shadow: 0 0 10px black;
     width: 80%;
-    height: 40px;
+    height: 50px;
     object-fit: cover;
     z-index: 0;
 }
@@ -94,6 +95,18 @@ i {
 }
 
 @media screen and (max-width: 1030px) {
+    .rate-card {
+        width: 225px;
+        height: 360px;
+    }
+
+    .card-banner{
+        left: 136px;
+        top: 8px;
+        width: 80%;
+        height: 40px;
+    }
+    
     .content{
         top: -45px;
     }
