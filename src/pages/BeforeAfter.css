@@ -15,13 +15,14 @@
 
 .slider-container {
     display: flex;
-    width: 80%;
-    height: auto;
+    width: 100%;
+    justify-content: center;
 }
 
 .images {
-    width: 80%;
-    height: 80%;
+    width: 40vw;
+    height: 40vw;
+    margin: 0 20px;
     object-fit: cover;
     object-position: center;
     border: 5px solid rgb(218, 165, 32);
