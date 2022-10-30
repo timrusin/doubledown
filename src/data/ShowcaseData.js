@@ -11,7 +11,7 @@ const Showcase = [
         title: 'Audi side front',
         img: '/assets/showcase_photos/audi_front_2.jpeg',
         img_alt: 'audi side front',
-        position: '15%'
+        position: '90%'
     },
     {
         id: 3,
