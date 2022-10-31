@@ -29,6 +29,11 @@ const Navbar = () => {
       </div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
+          <Link className="nav-links" to="/services" onClick={closeMenu}>
+            Services
+          </Link>
+        </li>
+        <li className="nav-item">
           <Link className="nav-links" to="/before_after" onClick={closeMenu}>
             Before/After
           </Link>
@@ -36,11 +41,6 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-links" to="/showcase" onClick={closeMenu}>
             Showcase
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-links" to="/services" onClick={closeMenu}>
-            Services
           </Link>
         </li>
         <li className="nav-item">
