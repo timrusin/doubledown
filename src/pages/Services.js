@@ -9,6 +9,8 @@ const Services = () => {
   const [cardThree, setCardThree]= useState(false)
   const [cardFour, setCardFour]= useState(false)
 
+  const randomDegree = Math.floor(Math.random()* (365 - 345)+345)
+  console.log(randomDegree);
 
   useEffect(()=> {
     const CardTwo = ()=>{
@@ -25,7 +27,7 @@ const Services = () => {
     setCardOne(true)
     setTimeout(CardTwo,400)
 },[])
-  console.log(ServiceData[0]);
+
   return (
     <div className="services-container">
       <div className="cards">
