@@ -9,9 +9,6 @@ const Services = () => {
   const [cardThree, setCardThree]= useState(false)
   const [cardFour, setCardFour]= useState(false)
 
-  const randomDegree = Math.floor(Math.random()* (365 - 345)+345)
-  console.log(randomDegree);
-
   useEffect(()=> {
     const CardTwo = ()=>{
       setCardTwo(true)
