@@ -9,6 +9,11 @@ const Services = () => {
   const [cardThree, setCardThree]= useState(false)
   const [cardFour, setCardFour]= useState(false)
 
+  const randomDegree1 = Math.floor(Math.random()* (365 - 0)+ 0)
+  const randomDegree2 = Math.floor(Math.random()* (320 - 90)+90)
+  const randomDegree3 = Math.floor(Math.random()* (320 - 90)+90)
+  const randomDegree4 = Math.floor(Math.random()* (320 - 90)+90)
+
   useEffect(()=> {
     const CardTwo = ()=>{
       setCardTwo(true)
@@ -28,7 +33,7 @@ const Services = () => {
   return (
     <div className="services-container">
       <div className="cards">
-        <div className={cardOne ? "card-one" : "card-hide"}>
+        <div className={cardOne ? "card-one" : "card-hide"} style={{transform: `rotate(${randomDegree1}deg)`}}>
           <Ratecard 
             name={ServiceData[0].name}
             subName={ServiceData[0].subName}
@@ -44,7 +49,7 @@ const Services = () => {
             position={ServiceData[0].position}
           />
         </div>
-        <div className={cardTwo ? "card-two" : "card-hide"}>
+        <div className={cardTwo ? "card-two" : "card-hide"} style={{transform: `rotate(${randomDegree2}deg)`}}>
           <Ratecard
             name={ServiceData[1].name}
             subName={ServiceData[1].subName}
@@ -62,7 +67,7 @@ const Services = () => {
             position={ServiceData[1].position}
           />
         </div>
-        <div className={cardThree ? "card-three" : "card-hide"}>
+        <div className={cardThree ? "card-three" : "card-hide"} style={{transform: `rotate(${randomDegree3}deg)`}}>
           <Ratecard name={ServiceData[2].name}
             subName={ServiceData[2].subName}
             bulletOne={ServiceData[2].bulletOne}
@@ -76,7 +81,7 @@ const Services = () => {
             position={ServiceData[2].position}
            />
         </div>
-        <div className={cardFour ? "card-four" : "card-hide"}>
+        <div className={cardFour ? "card-four" : "card-hide"} style={{transform: `rotate(${randomDegree4}deg)`}}>
           <Ratecard name={ServiceData[3].name}
           bulletOne={ServiceData[3].bulletOne}
           bulletTwo={ServiceData[3].bulletTwo}
