@@ -33,7 +33,7 @@
     position: absolute;
     left: 20%;
     top: 20%;
-    /* transform: rotate(345deg); */
+    transform: rotate(345deg);
     transition: all ease-in 400ms;
     filter: brightness(.85);
 }
@@ -48,7 +48,7 @@
     position: absolute;
     left: 35%;
     top: 28%;
-    /* transform: rotate(365deg); */
+    transform: rotate(365deg);
     transition: all ease-in 350ms;
     filter: brightness(.85);
 }
@@ -62,7 +62,7 @@
     position: absolute;
     left: 50%;
     top: 22%;
-    /* transform: rotate(358deg); */
+    transform: rotate(358deg);
     transition: all ease-in 375ms;
     filter: brightness(.85);
 }
@@ -76,7 +76,7 @@
     position: absolute;
     left: 65%;
     top: 28%;
-    /* transform: rotate(345deg); */
+    transform: rotate(345deg);
     transition: all ease-in 400ms;
     filter: brightness(.85);
 }
