@@ -20,8 +20,8 @@
 }
 
 .images {
-    width: 40vw;
-    height: 40vw;
+    width: 32vw;
+    height: 32vw;
     margin: 0 20px;
     object-fit: cover;
     object-position: center;

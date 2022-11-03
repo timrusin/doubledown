@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Ratecard = (props) => {
   const [color, setColor] =useState('')
   const [suit, setSuit] = useState('')
-  console.log(props);
+  
   useEffect(()=>{
     const suits = ['fa-heart', 'fa-diamond', 'fa-spade', 'fa-club']
     const colors = ['red', 'black']

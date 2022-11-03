@@ -24,7 +24,7 @@ const BeforeAfter = () => {
     }
   return (
   <div className='before-after-container fade'>
-    <i class="fa-thin fa-chevron-left arrows-mobile" onClick={previousPic}></i>
+    <i className="fa-thin fa-chevron-left arrows-mobile" onClick={previousPic}></i>
         <div className='slider-container'>
             <i class="fa-thin fa-chevron-left arrows-desktop" onClick={previousPic}></i>
             <div className='image'>

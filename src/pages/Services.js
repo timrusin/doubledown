@@ -9,7 +9,6 @@ const Services = () => {
   const [cardThree, setCardThree]= useState(false)
   const [cardFour, setCardFour]= useState(false)
 
-
   useEffect(()=> {
     const CardTwo = ()=>{
       setCardTwo(true)
@@ -25,7 +24,7 @@ const Services = () => {
     setCardOne(true)
     setTimeout(CardTwo,400)
 },[])
-  console.log(ServiceData[0]);
+
   return (
     <div className="services-container">
       <div className="cards">
