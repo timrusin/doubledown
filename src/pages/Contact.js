@@ -4,7 +4,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container fade">
       <h1>Request a free quote</h1>
       <ContactForm/>
       <p>*Paint correction refers to the polishing process of removing light surface scratches and restoring the gloss appearence of the paint.</p>

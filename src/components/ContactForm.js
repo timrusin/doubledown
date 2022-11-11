@@ -63,10 +63,11 @@ const ContactForm = () => {
             required
           />
 
-        <p>Tell me a little more about the job you're looking to have done.  </p>
+        <p>Tell me a little more about the work you're looking to have done.  </p>
           <textarea
             name="notes"
             className="input name"
+            required
           />
 
           <input
@@ -83,6 +84,7 @@ const ContactForm = () => {
             className="input name"
             required
           />
+          <p>To ensure a response, please make sure email is entered correctly</p>
 
         <div className="input-field">
           <button className="contact-button" type="submit">
