@@ -27,12 +27,12 @@ const ContactForm = () => {
           <option value="Premium Wash" selected="selected">Premium Wash</option>
         </select>
 
-        <p><em>Any special needs or care? i.e.Mate finsih paint</em></p>
-        <p>If yes, please describe below</p>
-        <select Name="Special Needs" className="input name">
+        <p>Any special needs or care? i.e.Mate finsih paint</p>
+        <select Name="Special Needs" className="input needs">
           <option value="No" selected="selected">No</option>
           <option value="Yes">Yes</option>
         </select>
+        <p>If yes, please describe below</p>
 
         <select name="Interior Detail" className="input name">
           <option value="No Interior Detail">--No Interior Detail--</option>

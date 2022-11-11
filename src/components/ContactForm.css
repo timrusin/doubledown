@@ -11,7 +11,7 @@
 }
 
 .input-field {
-    margin-bottom: 5%;
+
 }
 
 .input {
@@ -20,24 +20,28 @@
     color: black;
     font-size: 2vw;;
     border: white solid 1px;
-    border-radius: 15px;
     color: white;
-    box-shadow: 0px 0px 5px white;
+    box-shadow: 0px 0px 10px white;
+    width: auto;
+    text-align: center;
+}
+
+.needs {
+    margin-bottom: 0;
 }
 
 .name {
-    width: auto;
-    text-align: center;
+   
 }
 
 .email{
-    text-align: center;
-    width: auto;
+
+    
 }
 
 .message {
-    width: auto;
-    text-align: center;
+
+    
 }
 
 .contact-button{
