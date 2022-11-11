@@ -20,32 +20,70 @@ const ContactForm = () => {
     }
     return (
       <form className='contact-form' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
-        <div className="input-field">
+
+        <select name="Exterior Wash" className="input name">
+          <option value="No Exterior Wash">--No Exterior Wash--</option>
+          <option value="Maintenace Wash">Maintenance Wash</option>
+          <option value="Premium Wash" selected="selected">Premium Wash</option>
+        </select>
+
+        <p><em>Any special needs or care? i.e.Mate finsih paint</em></p>
+        <p>If yes, please describe below</p>
+        <select Name="Special Needs" className="input name">
+          <option value="No" selected="selected">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+
+        <select name="Interior Detail" className="input name">
+          <option value="No Interior Detail">--No Interior Detail--</option>
+          <option value="Maintenace Interior Detail">Maintenance Interior Detail </option>
+          <option value="Premium Interior Detail" selected="selected">Premium Interior Detail</option>
+        </select>
+
           <input
             type="text"
-            placeholder="Your Name"
-            name="name"
+            placeholder="Vehicle Year"
+            name="year"
             className="input name"
             required
           />
-        </div>
-        <div className="input-field">
+
+          <input
+            type="text"
+            placeholder="Vehicle Make"
+            name="Make"
+            className="input name"
+            required
+          />
+
+          <input
+            placeholder="Vehicle Model"
+            name="model"
+            className="input name"
+            required
+          />
+
+        <p>Tell me a little more about the job you're looking to have done.  </p>
+          <textarea
+            name="notes"
+            className="input name"
+          />
+
+          <input
+            placeholder="Your Name"
+            name="Client Name"
+            className="input name"
+            required
+          />
+
           <input
             type="email"
             placeholder="Your Email"
-            name="email"
-            className="input email"
+            name="Client email"
+            className="input name"
             required
           />
-        </div>
-        <div className="input-field">
-          <textarea
-            placeholder="Message"
-            name="message"
-            className="input message"
-            required
-          />
-        </div>
+
         <div className="input-field">
           <button className="contact-button" type="submit">
             - Send -
