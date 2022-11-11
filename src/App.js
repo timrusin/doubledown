@@ -18,7 +18,7 @@ function App() {
         <Route path="/before_after" element={<BeforeAfter />} />
         <Route path="/showcase" element={<Showcase />} />
         <Route path="about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact/:name" element={<Contact />} />
       </Routes>
     </div>
   );
