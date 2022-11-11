@@ -3,7 +3,7 @@ import "./ContactForm.css"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2dcb7f30-615c-11ed-b398-5fe41cc942d7"
 
-const ContactForm = () => {
+const ContactForm = (props) => {
     const [submitted, setSubmitted] = useState(false)
     const handleSubmit = () => {
         setTimeout(()=> {
@@ -21,7 +21,7 @@ const ContactForm = () => {
     return (
       <form className='contact-form' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
 
-        <select name="Exterior Wash" className="input name" defaultValue={"Premium Wash"}>
+        <select name="Exterior Wash" className="input name" defaultValue={props.serviceName}>
           <option value="No Exterior Wash">--No Exterior Wash--</option>
           <option value="Maintenace Wash">Maintenance Wash</option>
           <option value="Premium Wash">Premium Wash</option>
@@ -34,7 +34,7 @@ const ContactForm = () => {
         </select>
         <p>If yes, please describe below</p>
 
-        <select name="Interior Detail" className="input name" defaultValue={"Premium Interior Detail"}>
+        <select name="Interior Detail" className="input name" defaultValue={props.serviceName"}>
           <option value="No Interior Detail">--No Interior Detail--</option>
           <option value="Maintenace Interior Detail">Maintenance Interior Detail </option>
           <option value="Premium Interior Detail">Premium Interior Detail</option>
