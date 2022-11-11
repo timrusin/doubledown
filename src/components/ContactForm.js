@@ -21,23 +21,23 @@ const ContactForm = () => {
     return (
       <form className='contact-form' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
 
-        <select name="Exterior Wash" className="input name">
+        <select name="Exterior Wash" className="input name" defaultValue={"Premium Wash"}>
           <option value="No Exterior Wash">--No Exterior Wash--</option>
           <option value="Maintenace Wash">Maintenance Wash</option>
-          <option value="Premium Wash" selected="selected">Premium Wash</option>
+          <option value="Premium Wash">Premium Wash</option>
         </select>
 
         <p>Any special needs or care? i.e.Mate finsih paint</p>
-        <select Name="Special Needs" className="input needs">
-          <option value="No" selected="selected">No</option>
+        <select name="Special Needs" className="input needs" defaultValue={"No"}>
+          <option value="No">No</option>
           <option value="Yes">Yes</option>
         </select>
         <p>If yes, please describe below</p>
 
-        <select name="Interior Detail" className="input name">
+        <select name="Interior Detail" className="input name" defaultValue={"Premium Interior Detail"}>
           <option value="No Interior Detail">--No Interior Detail--</option>
           <option value="Maintenace Interior Detail">Maintenance Interior Detail </option>
-          <option value="Premium Interior Detail" selected="selected">Premium Interior Detail</option>
+          <option value="Premium Interior Detail">Premium Interior Detail</option>
         </select>
 
           <input
