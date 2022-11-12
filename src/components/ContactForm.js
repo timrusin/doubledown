@@ -3,23 +3,24 @@ import "./ContactForm.css"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2dcb7f30-615c-11ed-b398-5fe41cc942d7"
 
-const ContactForm = (props, setClicked) => {
+const ContactForm = ({setClicked},props) => {
     const [submitted, setSubmitted] = useState(false)
     const handleSubmit = () => {
         setTimeout(()=> {
             setSubmitted(true)
         }, 100)
     }
-console.log(props.serviceName);
 
     if (submitted){
+        setClicked(true)
         return (
             <div className='submitted-message' >
                 <h1 className='thank-you'>Thank you!</h1>
-                <h2 className='talk-soon'>Talk soon</h2>
+                <h2 className='talk-soon'>I will be into touch with your quote soon.</h2>
             </div>
         )
     }
+
     return (
       <form className='contact-form' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
 
@@ -89,7 +90,7 @@ console.log(props.serviceName);
           <p className='email-message'>To ensure a response, please make sure email is entered correctly</p>
 
         <div className="input-field">
-          <button className="input contact-button" type="submit" onClick={()=>setClicked(true)}>
+          <button className="input contact-button" type="submit">
             - Send -
           </button>
         </div>

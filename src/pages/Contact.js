@@ -6,7 +6,7 @@ import './Contact.css'
 const Contact = () => {
   const [clicked, setClicked] = useState(false)
   let { name } = useParams()
-  
+  console.log(clicked);
   return (
     <div className="contact-container fade">
       {clicked === false ? <h1 className='contact-title'>Request a Free Quote</h1> : null}
