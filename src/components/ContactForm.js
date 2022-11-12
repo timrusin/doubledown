@@ -41,12 +41,12 @@ console.log(props.serviceName);
           <option value="No">No</option>
           <option value="Yes">Yes</option>
         </select>
-        <p>If yes, please describe below</p>
+        <p className='care'>If yes, please describe below</p>
         
         <textarea
             name="notes"
             className="input notes"
-            required
+            placeholder='Anything else I should know?'
           />
           
           <input
@@ -89,7 +89,7 @@ console.log(props.serviceName);
           <p className='email-message'>To ensure a response, please make sure email is entered correctly</p>
 
         <div className="input-field">
-          <button className="contact-button" type="submit">
+          <button className="input contact-button" type="submit">
             - Send -
           </button>
         </div>

@@ -10,7 +10,7 @@
 }
 
 .astericks {
-    font-size: ;
+    
 }
 
 @media screen and (max-width:1225px){
@@ -25,7 +25,7 @@
 
 @media screen and (max-width:600px){
     .contact-container {
-        padding-top: 75px;
+        padding-top: 60px;
     }
     .contact-title {
         text-align: center;

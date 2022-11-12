@@ -10,24 +10,19 @@
     align-items: center;
 }
 
-.email-message {
-    
-}
-
-.input-field {
-
-}
-
 .input {
-    background-color: rgb(54, 54, 54);
-    margin-bottom: 20px;
-    color: black;
+    background-color: rgba(214, 45, 45, 0.8);
+    margin-bottom: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vw;
     border: white solid 1px;
     color: white;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0 0 8px rgb(218, 165, 32);
     text-align: center;
+}
+
+.input::placeholder{
+    color: rgba(255, 255, 255, 0.766);
 }
 
 .care {
@@ -40,7 +35,7 @@
 }   
 
 .needs {
-    margin-bottom: 0;
+    margin-bottom: 5px;
     
 }
 
@@ -54,18 +49,17 @@
 }
 
 .notes {
-    width: 300px;
+    width: 600px;
     
 }
 
 .contact-button{
-    background: none;
+    background: rgb(214, 45, 45);
     margin-bottom: 0;
     font-size: 1.5vw;;
     border: rgb(255, 255, 255) 1px solid;
-    box-shadow: 0px 0px 5px white;
     color: white;
-    transition: background-color 800ms;
+    transition: background-color 400ms;
 }
 .contact-button:hover {
     background-color: rgb(179, 179, 179);
@@ -86,7 +80,6 @@
         font-size: 2vw;
         border: white solid 1px;
         color: white;
-        box-shadow: 0px 0px 10px white;
         width: auto;
         text-align: center;
     }
@@ -109,6 +102,7 @@
 
     .contact-button {
         font-size: 3vw;
+        margin-bottom: 0;
     }
 
     .thank-you {
@@ -122,5 +116,10 @@
     .care {
         margin-top: 0;
         font-size: 3vw;
+    }
+
+    .notes {
+        width: 80%;
+        height: 80px;
     }
 }
