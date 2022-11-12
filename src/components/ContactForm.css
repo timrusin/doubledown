@@ -11,8 +11,9 @@
 }
 
 .email-message {
-    font-size: ;
+    
 }
+
 .input-field {
 
 }
@@ -31,14 +32,16 @@
 
 .care {
     margin-top: 0;
+    font-size: 1.5vw;
 }
 
-.model {
-    margin-bottom: 0;
-}
+.int {
+    margin-bottom: 5px;
+}   
 
 .needs {
     margin-bottom: 0;
+    
 }
 
 .name {
@@ -80,7 +83,7 @@
 
 @media screen and (max-width:1225px){
     .input {
-        font-size: 1.5vw;
+        font-size: 2vw;
         border: white solid 1px;
         color: white;
         box-shadow: 0px 0px 10px white;
@@ -114,5 +117,10 @@
 
     .talk-soon {
         font-size: 4vw;
+    }
+
+    .care {
+        margin-top: 0;
+        font-size: 3vw;
     }
 }

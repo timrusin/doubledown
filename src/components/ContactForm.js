@@ -23,20 +23,20 @@ console.log(props.serviceName);
     return (
       <form className='contact-form' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
 
-        <select name="Exterior Wash" className="input name" defaultValue={props.serviceName}>
+        <select name="Exterior Wash" className="input ext" defaultValue={props.serviceName}>
           <option value="No Exterior Wash">--No Exterior Wash--</option>
           <option value="Maintenance Wash">Maintenance Wash</option>
           <option value="Premium Wash">Premium Wash</option>
         </select>
 
 
-        <select name="Interior Detail" className="input name" defaultValue={props.serviceName}>
+        <select name="Interior Detail" className="input int" defaultValue={props.serviceName}>
           <option value="No Interior Detail">--No Interior Detail--</option>
           <option value="Maintenance Interior Detail">Maintenance Interior Detail </option>
           <option value="Premium Interior Detail">Premium Interior Detail</option>
         </select>
 
-        <p className='care'>Any special needs or care? (i.e.mate finish paint)</p>
+        <p className='care'>Any special needs or care? (i.e.matte finish paint)</p>
         <select name="Special Needs" className="input needs" defaultValue={"No"}>
           <option value="No">No</option>
           <option value="Yes">Yes</option>
