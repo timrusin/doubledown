@@ -3,7 +3,7 @@ import "./ContactForm.css"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/2dcb7f30-615c-11ed-b398-5fe41cc942d7"
 
-const ContactForm = (props) => {
+const ContactForm = (props, setClicked) => {
     const [submitted, setSubmitted] = useState(false)
     const handleSubmit = () => {
         setTimeout(()=> {
@@ -89,7 +89,7 @@ console.log(props.serviceName);
           <p className='email-message'>To ensure a response, please make sure email is entered correctly</p>
 
         <div className="input-field">
-          <button className="input contact-button" type="submit">
+          <button className="input contact-button" type="submit" onClick={()=>setClicked(true)}>
             - Send -
           </button>
         </div>
