@@ -5,7 +5,34 @@
 }
 
 .contact-title {
-    margin-top: 100px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2vw;
+}
+
+.astericks {
+    font-size: ;
+}
+
+@media screen and (max-width:1225px){
+    .contact-container {
+        padding-top: 90px;
+    }
+    .contact-title {
+        text-align: center;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contact-container {
+        padding-top: 75px;
+    }
+    .contact-title {
+        text-align: center;
+        font-size: 5vw;
+    }
+    .astericks {
+        font-size: 3vw;
+        margin-top: 0;
+    }
 }

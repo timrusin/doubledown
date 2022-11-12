@@ -36,18 +36,24 @@ console.log(props.serviceName);
           <option value="Premium Interior Detail">Premium Interior Detail</option>
         </select>
 
-        <p>Any special needs or care? i.e.Mate finsih paint</p>
+        <p className='care'>Any special needs or care? (i.e.mate finish paint)</p>
         <select name="Special Needs" className="input needs" defaultValue={"No"}>
           <option value="No">No</option>
           <option value="Yes">Yes</option>
         </select>
         <p>If yes, please describe below</p>
         
+        <textarea
+            name="notes"
+            className="input notes"
+            required
+          />
+          
           <input
             type="text"
             placeholder="Vehicle Year"
             name="year"
-            className="input name"
+            className="input year"
             required
           />
 
@@ -55,23 +61,16 @@ console.log(props.serviceName);
             type="text"
             placeholder="Vehicle Make"
             name="Make"
-            className="input name"
+            className="input make"
             required
           />
 
           <input
             placeholder="Vehicle Model"
             name="model"
-            className="input name"
+            className="input model"
             required
-          />
-
-        <p>Tell me a little more about the work you're looking to have done.  </p>
-          <textarea
-            name="notes"
-            className="input name"
-            required
-          />
+          />          
 
           <input
             placeholder="Your Name"
@@ -84,10 +83,10 @@ console.log(props.serviceName);
             type="email"
             placeholder="Your Email"
             name="Client email"
-            className="input name"
+            className="input email"
             required
           />
-          <p>To ensure a response, please make sure email is entered correctly</p>
+          <p className='email-message'>To ensure a response, please make sure email is entered correctly</p>
 
         <div className="input-field">
           <button className="contact-button" type="submit">
