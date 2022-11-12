@@ -45,7 +45,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <Link className="nav-links" to="/contact" onClick={closeMenu}>
-            Contact
+            FreeQuote
           </Link>
         </li>
       </ul>
