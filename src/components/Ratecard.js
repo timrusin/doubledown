@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import './Ratecard.css'
-import {Link} from 'react-router-dom'
+import { Link }  from 'react-router-dom'
 
 const Ratecard = (props) => {
   const [color, setColor] =useState('')
   const [suit, setSuit] = useState('')
-  
+
   useEffect(()=>{
     const suits = ['fa-heart', 'fa-diamond', 'fa-spade', 'fa-club']
     const colors = ['red', 'black']
@@ -14,6 +14,10 @@ const Ratecard = (props) => {
     setColor(colors[randomColor])
     setSuit(suits[randomSuit])
   },[])
+
+  const Top = () =>{
+    window.scrollTo({top:0, behavior: 'smooth'})
+}
 
   return (
       <div className="rate-card inner-border">
@@ -38,7 +42,7 @@ const Ratecard = (props) => {
             <li>{props.bulletEight}</li>
             <li>{props.bulletNine}</li>
           </ol>
-          <Link to={`/contact/${props.name}`} className="quote-link">
+          <Link to={`/contact/${props.name}`} className="quote-link" onClick={Top}>
             GET A FREE QUOTE
           </Link>
           <div className="bottom-right">

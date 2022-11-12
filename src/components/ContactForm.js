@@ -10,6 +10,8 @@ const ContactForm = (props) => {
             setSubmitted(true)
         }, 100)
     }
+console.log(props.serviceName);
+
     if (submitted){
         return (
             <div className='submitted-message' >
@@ -23,8 +25,15 @@ const ContactForm = (props) => {
 
         <select name="Exterior Wash" className="input name" defaultValue={props.serviceName}>
           <option value="No Exterior Wash">--No Exterior Wash--</option>
-          <option value="Maintenace Wash">Maintenance Wash</option>
+          <option value="Maintenance Wash">Maintenance Wash</option>
           <option value="Premium Wash">Premium Wash</option>
+        </select>
+
+
+        <select name="Interior Detail" className="input name" defaultValue={props.serviceName}>
+          <option value="No Interior Detail">--No Interior Detail--</option>
+          <option value="Maintenance Interior Detail">Maintenance Interior Detail </option>
+          <option value="Premium Interior Detail">Premium Interior Detail</option>
         </select>
 
         <p>Any special needs or care? i.e.Mate finsih paint</p>
@@ -33,13 +42,7 @@ const ContactForm = (props) => {
           <option value="Yes">Yes</option>
         </select>
         <p>If yes, please describe below</p>
-
-        <select name="Interior Detail" className="input name" defaultValue={props.serviceName"}>
-          <option value="No Interior Detail">--No Interior Detail--</option>
-          <option value="Maintenace Interior Detail">Maintenance Interior Detail </option>
-          <option value="Premium Interior Detail">Premium Interior Detail</option>
-        </select>
-
+        
           <input
             type="text"
             placeholder="Vehicle Year"

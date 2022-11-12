@@ -19,6 +19,7 @@ function App() {
         <Route path="/showcase" element={<Showcase />} />
         <Route path="about" element={<About />} />
         <Route path="/contact/:name" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
