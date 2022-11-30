@@ -5,7 +5,7 @@ import About from './About'
 const Home = () => {
   return (
     <div className="home-container fade">
-      <img src="/assets/medium_photos/lambo_front_medium.jpeg" alt="lambo"></img>
+      {/* <img src="/assets/medium_photos/lambo_front_medium.jpeg" alt="lambo" className='home-banner'></img> */}
       <About/>
     </div>
   );

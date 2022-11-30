@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import dev_bg_low from '../assets/images/products-edit-low.mp4'
+import dev_bg_low from '../assets/video/Double_Down_vid1 - SD 480p.mov'
 const About = () => {
   return (
     <div className="about-container fade">
@@ -34,7 +34,7 @@ const About = () => {
         Thank you for giving me the opportunity to produce a great result detailing your vehicle. 
         </p>
       </div>
-      <div className="about-video">
+      <div className="about-video-container">
         <video
           src={dev_bg_low}
           autoPlay
