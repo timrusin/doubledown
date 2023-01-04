@@ -9,7 +9,7 @@
 
 .about-bio {
     position: absolute;
-    top: 400px;
+    top: 40vw;
     width: 80%;
     z-index: -10;
     text-align: left;
@@ -26,11 +26,17 @@
 
 .product-video{
     width: 100%;
-    height: 400px;
+    height: 40vw;
     object-fit: cover;
-    object-position: center;
+    object-position: 0 -225px;
     border: rgb(0, 0, 0) 2px solid;
 }
+@media screen and (max-width: 1450px){
+    .product-video{
+        object-position: bottom;
+    }
+}
+
 
 @media screen and (max-width: 450px) {
     .about-container {
