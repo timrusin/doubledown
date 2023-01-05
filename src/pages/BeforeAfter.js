@@ -32,7 +32,9 @@ const BeforeAfter = () => {
                 <h1 className='before-after'>BEFORE</h1>
             </div>
             <div className='image'>
+              <a href={Data[index].link} target={"new"}>
                 <img src={Data[index].img_after} alt={Data[index].alt_after} className='images'></img>
+              </a>
                 <h1 className='before-after'>AFTER</h1>
             </div>
             <i className="fa-thin fa-chevron-right arrows-desktop" onClick={nextPic}></i>

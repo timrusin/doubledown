@@ -37,7 +37,8 @@ const BeforeAfter = [
         img_before: "/assets/before_after_photos/tacoma_int_2_before_medium.jpeg",
         alt_before: "Tacoma interior 2 before",
         img_after: "/assets/before_after_photos/tacoma_int_2_after_medium.jpeg",
-        alt_after: "Tacoma interior 2 after"
+        alt_after: "Tacoma interior 2 after",
+        link: "https://doubledown21.netlify.app"
     },
     {
         id: 6,
