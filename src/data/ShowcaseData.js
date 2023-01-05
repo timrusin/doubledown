@@ -138,6 +138,13 @@ const Showcase = [
         img_alt: 'Tacoma',
         position: '75%'
     },
+    {
+        id: 21,
+        title: 'HRV',
+        img: '/assets/showcase_photos/HRV.jpg',
+        img_alt: 'HRV',
+        position: '10% 10%'
+    },
 ]
 
 export default Showcase
