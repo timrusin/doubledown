@@ -1,11 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Double Down",
+  "name": "Double Down Auto Detailing",
+  "description": "Chicgoland area mobile auto detialing service company owned by Donnie Longtin. Interior and Exterior detialing, paint correction, buffing, shampooing.",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "DD_favicon.ico",
+      "sizes": "220x220",
       "type": "image/x-icon"
+    },
+    {
+      "src": "DD.png",
+      "sizes": "512x512",
+      "type": "png",
+      "purpose": "any"
     }
   ],
   "start_url": ".",
