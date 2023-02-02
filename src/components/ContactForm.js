@@ -37,18 +37,6 @@ const ContactForm = ({setClicked, serviceName}) => {
           <option value="Premium Interior Detail">Premium Interior Detail</option>
         </select>
 
-        <p className='care'>Any special needs or care? (i.e.matte finish paint)</p>
-        <select name="Special Needs" className="input needs" defaultValue={"No"}>
-          <option value="No">No</option>
-          <option value="Yes">Yes</option>
-        </select>
-        <p className='care'>If yes, please describe below</p>
-        
-        <textarea
-            name="notes"
-            className="input notes"
-            placeholder='Anything else I should know?'
-          />
           
           <input
             type="text"
@@ -80,6 +68,18 @@ const ContactForm = ({setClicked, serviceName}) => {
             required
           />
 
+        <p className='care'>Any special needs or care? (i.e.matte finish paint)</p>
+        <select name="Special Needs" className="input needs" defaultValue={"No"}>
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
+        </select>
+        <p className='care'>If yes, please describe below</p>
+        
+        <textarea
+            name="notes"
+            className="input notes"
+            placeholder='Anything else I should know?'
+          />
           <input
             type="email"
             placeholder="Your Email"
