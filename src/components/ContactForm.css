@@ -13,6 +13,7 @@
 .input {
     background-color: rgba(214, 45, 45, 0.8);
     margin-bottom: 15px;
+    width: 800px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vw;
     border: white solid 1px;
@@ -36,7 +37,6 @@
 
 .needs {
     margin-bottom: 5px;
-    
 }
 
 .name {
@@ -49,7 +49,7 @@
 }
 
 .notes {
-    width: 600px;
+    width: 800px;
     
 }
 
@@ -57,7 +57,8 @@
     background: rgba(218, 165, 32, 0.48);
     margin-bottom: 0;
     border-radius: 10px;
-    font-size: 1.5vw;;
+    font-size: 1.5vw;
+    width: 400px;
     border: rgb(255, 255, 255) 1px solid;
     color: white;
     transition: background-color 400ms;
@@ -81,20 +82,30 @@
         font-size: 2vw;
         border: white solid 1px;
         color: white;
-        width: auto;
+        width: 500px;
         text-align: center;
     }
+
+    .contact-button{
+        width: 200px;
+        border: rgb(255, 255, 255) 1px solid;
+        color: white;
+        transition: background-color 400ms;
+    }
+
+
 }
 
 
 
-@media screen and (max-width:965px){
+@media screen and (max-width:500px){
     .input-field {
         margin-bottom: 8%;
     }
     
     .input {
         font-size: 4vw;
+        width: 225px;
     }
 
     .email-message {
@@ -103,6 +114,7 @@
 
     .contact-button {
         font-size: 3vw;
+        width: 60px;
     }
 
     .thank-you {
@@ -119,7 +131,7 @@
     }
 
     .notes {
-        width: 80%;
+        width: 225px;
         height: 80px;
     }
 }
