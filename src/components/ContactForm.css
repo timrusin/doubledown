@@ -17,6 +17,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2vw;
     border: white solid 1px;
+    border-radius: 5px;
     color: white;
     box-shadow: 0 0 8px rgb(218, 165, 32);
     text-align: center;
@@ -32,12 +33,11 @@
 }
 
 .ext {
-    border-radius: 0px;
+
 }
 
 .int {
     margin-bottom: 15px;
-    border-radius: 0px;
 }   
 
 .needs {
