@@ -31,7 +31,7 @@
 }
 
 .int {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }   
 
 .needs {
@@ -54,8 +54,9 @@
 }
 
 .contact-button{
-    background: rgb(214, 45, 45);
+    background: rgba(218, 165, 32, 0.48);
     margin-bottom: 0;
+    border-radius: 10px;
     font-size: 1.5vw;;
     border: rgb(255, 255, 255) 1px solid;
     color: white;
@@ -89,7 +90,7 @@
 
 @media screen and (max-width:965px){
     .input-field {
-        margin-bottom: 8%;;
+        margin-bottom: 8%;
     }
     
     .input {
