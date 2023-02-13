@@ -9,7 +9,7 @@ const BeforeAfter = () => {
         const interval = setInterval(() => {
           setIndex(index+1)
           if (index >= Data.length -1) setIndex(0)
-        }, 6000);
+        }, 4000);
         return () => clearInterval(interval);
     });
 
