@@ -92,8 +92,6 @@
         color: white;
         transition: background-color 400ms;
     }
-
-
 }
 
 
@@ -114,7 +112,7 @@
 
     .contact-button {
         font-size: 3vw;
-        width: 60px;
+        width: 80px;
     }
 
     .thank-you {
